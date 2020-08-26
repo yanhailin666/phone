@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9289282b-ad8e-4f52-9ae8-f80558a9817f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="https://github.com/yanhailin666/phone.git" />
+      </list>
+    </option>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
+  </component>
+  <component name="ProjectId" id="1gcdfWbSDFHphEdo8OBsRJjaW9s" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="添加" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9289282b-ad8e-4f52-9ae8-f80558a9817f" name="Default Changelist" comment="" />
+      <created>1598417917871</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598417917871</updated>
+      <workItem from="1598417918985" duration="638000" />
+      <workItem from="1598419313614" duration="528000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="183" key="#Notifications" timestamp="1598419519755">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="183" key="#Notifications/0.0.1920.1050@0.0.1920.1050" timestamp="1598419519755" />
+    <state x="552" y="28" key="CommitChangelistDialog2" timestamp="1598420034096">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="28" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1598420034096" />
+    <state x="-27" y="125" width="1736" height="866" key="DiffContextDialog" timestamp="1598419428302">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-27" y="125" width="1736" height="866" key="DiffContextDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1598419428302" />
+    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1598418555233">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1598418555233" />
+    <state x="766" y="151" key="RollbackChangesDialog" timestamp="1598419800097">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="766" y="151" key="RollbackChangesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1598419800097" />
+    <state x="92" y="92" width="1736" height="866" key="ShowDiffWithBranchDialog" timestamp="1598418556731">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="92" y="92" width="1736" height="866" key="ShowDiffWithBranchDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1598418556731" />
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1598420060807">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1598420060807" />
+    <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1598419528311">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1598419528311" />
+    <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1598419545939">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1598419545939" />
+    <state x="739" y="303" key="git4idea.merge.GitMergeDialog" timestamp="1598419897024">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="739" y="303" key="git4idea.merge.GitMergeDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1598419897024" />
+    <state x="677" y="298" key="git4idea.merge.GitPullDialog" timestamp="1598419867136">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="677" y="298" key="git4idea.merge.GitPullDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1598419867136" />
+    <state x="754" y="367" key="git4idea.rebase.GitRebaseDialog" timestamp="1598419732785">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="754" y="367" key="git4idea.rebase.GitRebaseDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1598419732785" />
+    <state x="761" y="411" key="git4idea.ui.GitResetDialog" timestamp="1598419839032">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="761" y="411" key="git4idea.ui.GitResetDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1598419839032" />
+    <state x="761" y="357" key="git4idea.ui.GitTagDialog" timestamp="1598419949942">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="761" y="357" key="git4idea.ui.GitTagDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1598419949942" />
+  </component>
+</project>
