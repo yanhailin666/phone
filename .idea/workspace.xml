@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9289282b-ad8e-4f52-9ae8-f80558a9817f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +72,7 @@
       <updated>1598417917871</updated>
       <workItem from="1598417918985" duration="638000" />
       <workItem from="1598419313614" duration="528000" />
+      <workItem from="1598431108755" duration="234000" />
     </task>
     <task id="LOCAL-00001">
       <created>1598423982610</created>
@@ -195,10 +196,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="739" y="303" key="git4idea.merge.GitMergeDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1598425078998" />
-    <state x="677" y="298" key="git4idea.merge.GitPullDialog" timestamp="1598425140306">
+    <state x="677" y="298" key="git4idea.merge.GitPullDialog" timestamp="1598431322118">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="677" y="298" key="git4idea.merge.GitPullDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1598425140306" />
+    <state x="677" y="298" key="git4idea.merge.GitPullDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1598431322118" />
     <state x="754" y="367" key="git4idea.rebase.GitRebaseDialog" timestamp="1598424176063">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
