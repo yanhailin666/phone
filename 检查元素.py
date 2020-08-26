@@ -30,51 +30,25 @@ time.sleep(3)
 # 退出并关闭浏览器
 driver.quit()
 
+#selenium判断元素为空时
+"""
+from selenium.common.exceptions import NoSuchElementException#判断元素是否存在
+from selenium.common.exceptions import NoAlertPresentException
+try:
+    nr=soup.find(class_="pic_text0")
+    print(nr)
+except NoSuchElementException:
+    print("元素不存在")
+"""
 
+#判断list为空时
+"""
+if len(phone):
+    # 存在值即为真
+    print("存在数据")
+else:
+    # list_temp是空的
+    print("不存在数据")
 
+"""
 
-
-
-
-
-
-
-
-
-
-
-# from selenium.common.exceptions import NoSuchElementException#判断元素是否存在
-# from selenium.common.exceptions import NoAlertPresentException
-# import urllib,requests
-# from lxml import etree
-# from bs4 import BeautifulSoup
-#
-#
-#
-#
-# url = "https://www.baidu.com"
-# page = urllib.request.urlopen(url)
-# html = page.read().decode('utf-8')
-# selector = etree.HTML(html)
-# z=requests.get(url)
-# z.encoding=z.apparent_encoding
-# #print(z.encoding)
-# soup=BeautifulSoup(z.text,features='html.parser')
-# bt=soup.find('div').text
-# print(bt)
-# try:
-#     nr=soup.find(class_="pic_text0")
-#     print(nr)
-# except NoSuchElementException:
-#     print("元素不存在")
-# Area = selector.xpath("//a[@class='c-color-gray2']")
-# print(Area)
-# # aa=selector.
-# #
-# #
-# #
-# #
-# # try:
-# #
-# # except NoSuchElementException:#判断元素是否存在
-# #     print("元素不存在")
