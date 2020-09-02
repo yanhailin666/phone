@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9289282b-ad8e-4f52-9ae8-f80558a9817f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/news_data_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/news_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/news_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
@@ -69,8 +71,8 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
-  <component name="RunManager" selected="Python.test">
-    <configuration name="news_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.news_data (1)">
+    <configuration name="news_data (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="phone" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -84,6 +86,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/news_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="news_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="phone" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\py\phone\news_data_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -114,9 +138,33 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="phone" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.news_data (1)" />
         <item itemvalue="Python.test" />
+        <item itemvalue="Python.test1" />
         <item itemvalue="Python.news_data" />
       </list>
     </recent_temporary>
@@ -145,7 +193,8 @@
       <updated>1598417917871</updated>
       <workItem from="1598417918985" duration="638000" />
       <workItem from="1598419313614" duration="528000" />
-      <workItem from="1598431108755" duration="15855000" />
+      <workItem from="1598431108755" duration="21462000" />
+      <workItem from="1599015197257" duration="7097000" />
     </task>
     <task id="LOCAL-00001">
       <created>1598423982610</created>
@@ -217,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598437764017</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="修改爬取数据代码">
+      <created>1598543823529</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1598543823529</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,10 +306,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="552" y="183" key="#Notifications/0.0.1920.1050@0.0.1920.1050" timestamp="1598419519755" />
-    <state x="552" y="0" key="CommitChangelistDialog2" timestamp="1598437762469">
+    <state x="552" y="0" key="CommitChangelistDialog2" timestamp="1598543822126">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="0" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1598437762469" />
+    <state x="552" y="0" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1598543822126" />
     <state x="-27" y="125" width="1736" height="866" key="DiffContextDialog" timestamp="1598424075377">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -266,22 +322,38 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="775" y="416" width="394" height="218" key="Github.CreateGistDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1598425152339" />
-    <state width="1877" height="264" key="GridCell.Tab.0.bottom" timestamp="1598543278134">
+    <state width="1877" height="264" key="GridCell.Tab.0.bottom" timestamp="1599023667679">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1598543278134" />
-    <state width="1877" height="264" key="GridCell.Tab.0.center" timestamp="1598543278134">
+    <state width="1877" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1599023667679" />
+    <state width="1877" height="264" key="GridCell.Tab.0.center" timestamp="1599023667679">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1598543278134" />
-    <state width="1877" height="264" key="GridCell.Tab.0.left" timestamp="1598543278134">
+    <state width="1877" height="264" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1599023667679" />
+    <state width="1877" height="264" key="GridCell.Tab.0.left" timestamp="1599023667679">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1598543278134" />
-    <state width="1877" height="264" key="GridCell.Tab.0.right" timestamp="1598543278134">
+    <state width="1877" height="264" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1599023667679" />
+    <state width="1877" height="264" key="GridCell.Tab.0.right" timestamp="1599023667679">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1598543278134" />
+    <state width="1877" height="264" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1599023667679" />
+    <state width="1877" height="329" key="GridCell.Tab.1.bottom" timestamp="1599019462351">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="329" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1599019462351" />
+    <state width="1877" height="329" key="GridCell.Tab.1.center" timestamp="1599019462350">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="329" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1599019462350" />
+    <state width="1877" height="329" key="GridCell.Tab.1.left" timestamp="1599019462350">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="329" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1599019462350" />
+    <state width="1877" height="329" key="GridCell.Tab.1.right" timestamp="1599019462350">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="329" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1599019462350" />
     <state x="184" y="87" key="MergeDialog" timestamp="1598432932101">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -302,10 +374,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="92" y="92" width="1736" height="866" key="ShowDiffWithBranchDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1598418556731" />
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1598437769584">
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1599023680666">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1598437769584" />
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1599023680666" />
     <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1598419528311">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -326,10 +398,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="739" y="303" key="git4idea.merge.GitMergeDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1598425078998" />
-    <state x="677" y="298" key="git4idea.merge.GitPullDialog" timestamp="1598543764028">
+    <state x="677" y="298" key="git4idea.merge.GitPullDialog" timestamp="1599023664406">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="677" y="298" key="git4idea.merge.GitPullDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1598543764028" />
+    <state x="677" y="298" key="git4idea.merge.GitPullDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1599023664406" />
     <state x="754" y="367" key="git4idea.rebase.GitRebaseDialog" timestamp="1598424176063">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -344,7 +416,9 @@
     <state x="761" y="357" key="git4idea.ui.GitTagDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1598419949942" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/phone$news_data__1_.coverage" NAME="news_data (1) Coverage Results" MODIFIED="1599023582791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/phone$news_data.coverage" NAME="news_data Coverage Results" MODIFIED="1598437529291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/phone$test.coverage" NAME="test Coverage Results" MODIFIED="1598543278109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/phone$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1599019558186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/phone$test.coverage" NAME="test Coverage Results" MODIFIED="1599020365059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

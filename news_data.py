@@ -5,9 +5,9 @@ from lxml import etree
 from bs4 import BeautifulSoup
 
 """
-这个爬虫的代码需要重构
-问题1.不是所有的跳转到短信的链接都有规律，有部分有号码，有部分没有号码。需要存跳转到短信的url
-问题2.有一些网站做了人机交互，需要破解
+重构v1.0版本
+新增返回来源网站，跳转到短信的url
+返回字段有区号列表：Area_code_list;手机号列表:phone_list;跳转到短信的url列表：country_url_list；来源网站：tempUrl
 """
 
 
@@ -34,81 +34,67 @@ for a in url_list:
         Area = selector.xpath("//p[@class='number']")#利用xpath定位获取数据
         phone = selector.xpath("//span[@class='btnCopy']")#http://www.z-sms.com/
         phone1 = selector.xpath("//h4[@class='number-boxes-item-number']")#https://yunduanxin.net/
-        if len(phone):
+        if len(phone):#http://www.z-sms.com/  跳转到短信的url
             # 存在值即为真
             print("存在数据")
-            print("开始爬取数据")
-            country_list = []
+            print("开始爬取数据http://www.z-sms.com/")
+            country = "/lv.php?pho_num="
+            country_url_list = []
+            Area_code_list = []
             phone_list = []
             for i in Area:
                 # print(i.text)
-                country_list.append(i.text)
+                Area_code_list.append(i.text)
             # print(area_list)
             for k in phone:
                 # print(i.text)
+                country_url=country+k.text
                 phone_list.append(k.text)
-            # print(phone_list)
-            # a_tuple = tuple(phone_list)#list转元祖
-            # print(a_tuple)
-            # daat_dict = dict(zip(area_list, phone_list))
-            # print(daat_dict)
-            # country_list = daat_dict.keys()
-            # phone_list = daat_dict.values()
+                country_url_list.append(country_url)
+            print(Area_code_list, phone_list, country_url_list, tempUrl)
             #return country_list, phone_list, tempUrl
         elif len(phone1):#https://yunduanxin.net/     跳转到短信urlh ttps://yunduanxin.net/info/8616574559124/
             print("存在数据")
-            print("开始爬取数据")
-            country_list = []
-            phone_list = []
-            for k in phone:
-                # print(k.text)
-                aa = (k.text)
-                bb = aa.split(" ")  # 利用空格进行切割
-                # print(bb)
-                country_list.append(bb[0])
-                phone_list.append(bb[1])
-            print(country_list, phone_list)
-            # return country_list, phone_list, tempUrl
-        else:#https://www.we39.cn/
-            page = urllib.request.urlopen(tempUrl)
-            html = page.read().decode('utf-8')
-            # print(html)
-            bs = BeautifulSoup(html, "html.parser")
-            namelist1 = str(bs.findAll("span"))  # 选取标签为span
-            # print(namelist1)
-            Area_url_list = re.findall(r'<span.+?href="(.+?)"', namelist1)
-            # print(pick)
+            print("开始爬取数据https://yunduanxin.net/")
+            country = "/info/"
             country_url_list = []
-            phone_lisr = []
-            for Area_url in Area_url_list:
-                # print(i)
-                phone = Area_url.split("/")
-                # print(aa)
-                country_url_list.append(Area_url)
-                phone_lisr.append(phone[2])
-            #print(country_url_list, phone_lisr)
+            Area_code_list = []
+            phone_list = []
+            for k in phone1:
+                # print(k.text)
+                qq = (k.text)
+                phone = qq.split(" ")  # 利用空格进行切割
+                #print(phone)
+                country_url=country+phone[1]
+                Area_code_list.append(phone[0])
+                phone_list.append(phone[1])
+                country_url_list.append(country_url)
+            print(Area_code_list, phone_list, country_url_list, tempUrl)
             # return country_list, phone_list, tempUrl
-
-            # # list_temp是空的
-            # print("不存在数据")
-
-        # area_list = []
-        # phone_list = []
-        # for i in Area:
-        #     # print(i.text)
-        #     area_list.append(i.text)
-        # # print(area_list)
-        # for k in phone:
-        #     # print(i.text)
-        #     phone_list.append(k.text)
-        # # print(phone_list)
-        # # a_tuple = tuple(phone_list)#list转元祖
-        # # print(a_tuple)
-        # daat_dict = dict(zip(area_list, phone_list))
-        # print(daat_dict)
-        # country_list = daat_dict.keys()
-        # phone_list = daat_dict.values()
-        # return country_list, phone_list, tempUrl
+        else:#https://www.we39.cn/  跳转到短信url   /receive/16533639083
+            r = requests.get(tempUrl)
+            htmls = r.text
+            soup = BeautifulSoup(htmls, 'lxml')
+            aaa = soup.find_all(class_=re.compile("card_num"))
+            # print(aaa)
+            country = "/receive/"
+            country_url_list = []
+            area_code = "+86"
+            Area_code_list = []
+            phone_lisr = []
+            for aa in aaa:
+                bb = str(aa.text)
+                # print(aa.text)
+                pd_phone = re.compile(r'(?<=86)\d+\.?\d*')  # 以什么开头匹配
+                phone1 = pd_phone.findall(bb)
+                if len(phone1):  # 判断list为空
+                    phone = "".join(phone1)  # 去掉list
+                    # print(phone)
+                    country_url = country + phone
+                    country_url_list.append(country_url)
+                    Area_code_list.append(area_code)
+                    phone_lisr.append(phone)
+            print(Area_code_list, phone_list, country_url_list, tempUrl)
     except urllib.error.HTTPError:
         print(tempUrl + '=访问页面出错')
         time.sleep(2)
