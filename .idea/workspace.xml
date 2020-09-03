@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9289282b-ad8e-4f52-9ae8-f80558a9817f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9289282b-ad8e-4f52-9ae8-f80558a9817f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -214,7 +212,7 @@
       <workItem from="1598419313614" duration="528000" />
       <workItem from="1598431108755" duration="21462000" />
       <workItem from="1599015197257" duration="12523000" />
-      <workItem from="1599125974069" duration="1075000" />
+      <workItem from="1599125974069" duration="1764000" />
     </task>
     <task id="LOCAL-00001">
       <created>1598423982610</created>
@@ -307,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599128094274</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="代码管理">
+      <created>1599128361602</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1599128361602</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,10 +346,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="552" y="183" key="#Notifications/0.0.1920.1050@0.0.1920.1050" timestamp="1598419519755" />
-    <state x="552" y="0" key="CommitChangelistDialog2" timestamp="1599128093251">
+    <state x="552" y="0" key="CommitChangelistDialog2" timestamp="1599128360947">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="0" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1599128093251" />
+    <state x="552" y="0" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1599128360947" />
     <state x="-27" y="125" width="1736" height="866" key="DiffContextDialog" timestamp="1598424075377">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -409,10 +414,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="92" y="92" width="1736" height="866" key="ShowDiffWithBranchDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1598418556731" />
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1599128097741">
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1599128377278">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1599128097741" />
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1599128377278" />
     <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1598419528311">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
