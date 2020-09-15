@@ -29,7 +29,7 @@ def dx(request):
     # print(html)
     bs = BeautifulSoup(html, "html.parser")
     nr = bs.find(class_="container")
-    print(nr)
+    #print(nr)
     return HttpResponse(html)
 
 

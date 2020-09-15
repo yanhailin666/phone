@@ -1,0 +1,15 @@
+2020-09-12 18:16:36,897 [django.request:230] [log:log_response] [WARNING] Not Found: /favicon.ico
+2020-09-12 22:24:30,032 [django.request:230] [log:log_response] [WARNING] Not Found: /phone/dx/
+2020-09-12 22:24:42,405 [django.request:230] [log:log_response] [WARNING] Not Found: /phone/dx/
+2020-09-12 22:25:16,542 [django.request:230] [log:log_response] [WARNING] Not Found: /phone/index/
+2020-09-12 22:25:20,673 [django.request:230] [log:log_response] [WARNING] Not Found: /phone/index/
+2020-09-12 22:25:57,162 [django.request:230] [log:log_response] [WARNING] Not Found: /phone/css/mine.css
+2020-09-12 22:25:57,170 [django.request:230] [log:log_response] [WARNING] Not Found: /phone/css/animate.css
+2020-09-12 22:25:57,189 [django.request:230] [log:log_response] [WARNING] Not Found: /phone/js/bootstrap-paginator/bootstrap-paginator.js
+2020-09-12 22:25:57,207 [django.request:230] [log:log_response] [WARNING] Not Found: /phone/js/mine.js
+2020-09-12 22:25:57,215 [django.request:230] [log:log_response] [WARNING] Not Found: /phone/js/jquery.singlePageNav.min.js
+2020-09-12 22:25:57,217 [django.request:230] [log:log_response] [WARNING] Not Found: /phone/js/wow.min.js
+2020-09-12 22:25:57,738 [django.request:230] [log:log_response] [WARNING] Not Found: /phone/js/bootstrap-paginator/bootstrap-paginator.js
+2020-09-12 22:25:57,751 [django.request:230] [log:log_response] [WARNING] Not Found: /phone/js/jquery.singlePageNav.min.js
+2020-09-12 22:25:57,764 [django.request:230] [log:log_response] [WARNING] Not Found: /phone/js/wow.min.js
+2020-09-12 22:25:57,773 [django.request:230] [log:log_response] [WARNING] Not Found: /phone/js/mine.js

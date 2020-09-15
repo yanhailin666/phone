@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/my/my",
+    "pages/message/message"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "云短信",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#55aaff",
+    "enablePullDownRefresh": true,
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/home/home",
+        "iconPath": "static/ico/home.png",
+        "selectedIconPath": "static/ico/home_no.png"
+      },
+      {
+        "text": "信息",
+        "pagePath": "pages/message/message",
+        "iconPath": "static/ico/message.png",
+        "selectedIconPath": "static/ico/message_no.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/my/my",
+        "iconPath": "static/ico/my.png",
+        "selectedIconPath": "static/ico/my_no.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
