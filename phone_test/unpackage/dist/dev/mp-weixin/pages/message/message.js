@@ -135,17 +135,28 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
 var _default =
 {
-  data: {
-    res: '' },
+  data: function data() {
+    return {
+      country: [],
+      phone: [],
+      information: [] };
 
-  onload: function onload() {
+  },
+  onLoad: function onLoad() {var _this = this;
     uni.request({
-      url: 'http://127.0.0.1:8088/phone.index',
-      method: "GET",
+      url: 'http://127.0.0.1:8088/phone/home',
       success: function success(res) {
-        console.log(res);
+        _this.country = res.data.country_list;
+        _this.phone = res.data.phone_list;
+        _this.information = res.data.information_list;
+        console.log(_this.phone);
       } });
 
   },

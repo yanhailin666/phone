@@ -20,7 +20,8 @@ def home(request):
         country_list.append(data["country"])
         phone_list.append(data["phone"])
         information_list.append(data["information_url"])
-    return JsonResponse(information_list, safe=False)
+    #return JsonResponse(information_list, safe=False)
+    return JsonResponse({"country_list": country_list, "phone_list": phone_list, 'information_list': information_list})
 
 def dx(request):
     url = 'http://www.z-sms.com/lv.php?pho_num=17194242613&1'
