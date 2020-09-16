@@ -3,17 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="9289282b-ad8e-4f52-9ae8-f80558a9817f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/QWebFX_2020-09-15.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/QWebFX_2020-09-15.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/Request/QWebFX_Request_2020-09-15.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/Request/QWebFX_Request_2020-09-15.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone_backstage/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/phone_backstage/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/phone_backstage/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/phone_backstage/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone_test/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/phone_test/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/phone_test/pages.json" beforeDir="false" afterPath="$PROJECT_DIR$/phone_test/pages.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone_test/pages/home/home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/phone_test/pages/home/home.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/phone_test/pages/message/message.vue" beforeDir="false" afterPath="$PROJECT_DIR$/phone_test/pages/message/message.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/.sourcemap/mp-weixin/common/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/.sourcemap/mp-weixin/common/main.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/.sourcemap/mp-weixin/pages/message/message.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/.sourcemap/mp-weixin/pages/message/message.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/mp-weixin/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/mp-weixin/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/mp-weixin/pages/message/message.js" beforeDir="false" afterPath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/mp-weixin/pages/message/message.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/mp-weixin/pages/message/message.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/mp-weixin/pages/message/message.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/mp-weixin/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/mp-weixin/project.config.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +71,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -235,7 +230,8 @@
       <workItem from="1599723426874" duration="242000" />
       <workItem from="1599904808778" duration="7573000" />
       <workItem from="1600143268015" duration="2830000" />
-      <workItem from="1600153610944" duration="3651000" />
+      <workItem from="1600153610944" duration="3769000" />
+      <workItem from="1600223737666" duration="9164000" />
     </task>
     <task id="LOCAL-00001">
       <created>1598423982610</created>
@@ -356,7 +352,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600150485612</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="第二次提交">
+      <created>1600163399632</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1600163399632</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -397,18 +400,18 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="552" y="183" key="#Notifications/0.0.1920.1050@0.0.1920.1050" timestamp="1598419519755" />
-    <state x="552" y="0" key="CommitChangelistDialog2" timestamp="1600150484568">
+    <state x="552" y="0" key="CommitChangelistDialog2" timestamp="1600163398710">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="0" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1600150484568" />
+    <state x="552" y="0" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1600163398710" />
     <state x="-27" y="125" width="1736" height="866" key="DiffContextDialog" timestamp="1598424075377">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="-27" y="125" width="1736" height="866" key="DiffContextDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1598424075377" />
-    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1600153683763">
+    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1600238583979">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1600153683763" />
+    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1600238583979" />
     <state x="775" y="416" width="394" height="218" key="Github.CreateGistDialog" timestamp="1598425152339">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -457,18 +460,18 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="766" y="151" key="RollbackChangesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1598425089266" />
-    <state x="461" y="167" key="SettingsEditor" timestamp="1600080281444">
+    <state x="461" y="167" key="SettingsEditor" timestamp="1600223838482">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="461" y="167" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1600080281444" />
+    <state x="461" y="167" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1600223838482" />
     <state x="92" y="92" width="1736" height="866" key="ShowDiffWithBranchDialog" timestamp="1598418556731">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="92" y="92" width="1736" height="866" key="ShowDiffWithBranchDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1598418556731" />
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1600150488378">
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1600163403966">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1600150488378" />
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1600163403966" />
     <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1598419528311">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -489,10 +492,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="739" y="303" key="git4idea.merge.GitMergeDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1598425078998" />
-    <state x="677" y="298" key="git4idea.merge.GitPullDialog" timestamp="1600163349439">
+    <state x="677" y="298" key="git4idea.merge.GitPullDialog" timestamp="1600253377730">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="677" y="298" key="git4idea.merge.GitPullDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1600163349439" />
+    <state x="677" y="298" key="git4idea.merge.GitPullDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1600253377730" />
     <state x="754" y="367" key="git4idea.rebase.GitRebaseDialog" timestamp="1598424176063">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

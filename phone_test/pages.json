@@ -12,6 +12,14 @@
             "path" : "pages/message/message",
             "style" : {}
         }
+        ,{
+            "path" : "pages/china/china",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/overseas/overseas",
+            "style" : {}
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
@@ -38,6 +46,12 @@
 			{
 				"text":"我的",
 				"pagePath":"pages/my/my",
+				"iconPath":"static/ico/my.png",
+				"selectedIconPath":"static/ico/my_no.png"
+			},
+			{
+				"text":"手机",
+				"pagePath":"pages/overseas/overseas",
 				"iconPath":"static/ico/my.png",
 				"selectedIconPath":"static/ico/my_no.png"
 			}

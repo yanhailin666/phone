@@ -1,18 +1,30 @@
 <template>
 	<view>
-		这是首页
+		<view class="page">
+			<button type="default" @tap="china">中国</button>
+			<button type="default" @tap="overseas">海外</button>
+		</view>
 	</view>
 </template>
 
-<script>
+<script>	
 	export default {
 		data() {
 			return {
 				
 			}
 		},
-		methods: {
-			
+		methods:{
+			china(){
+				uni.navigateTo({
+					   url:"/pages/china/china"    //这边的url前面多个斜杠哦！！！！！！
+				 })
+			},
+			overseas(){
+				uni.navigateTo({
+					   url:"/pages/overseas/overseas"//这边的url前面多个斜杠哦！！！！！！
+				 })
+			}
 		}
 	}
 </script>
