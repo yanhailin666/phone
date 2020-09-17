@@ -1,1 +1,1 @@
-<view><text>sfjeref[oeruf[]]</text><block wx:for="{{phone}}" wx:for-item="item" wx:for-index="phone" wx:key="phone"><swiper-item><view><text a="{{item.phone}}"></text></view></swiper-item></block></view>
+<view>这个是信息页</view>

@@ -2,7 +2,9 @@
   "pages": [
     "pages/home/home",
     "pages/my/my",
-    "pages/message/message"
+    "pages/message/message",
+    "pages/china/china",
+    "pages/overseas/overseas"
   ],
   "subPackages": [],
   "window": {
@@ -32,9 +34,15 @@
         "pagePath": "pages/my/my",
         "iconPath": "static/ico/my.png",
         "selectedIconPath": "static/ico/my_no.png"
+      },
+      {
+        "text": "手机",
+        "pagePath": "pages/overseas/overseas",
+        "iconPath": "static/ico/my.png",
+        "selectedIconPath": "static/ico/my_no.png"
       }
     ]
   },
   "usingComponents": {},
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap45.json"
 }

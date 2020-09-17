@@ -1,1 +1,1 @@
-<view>这是首页</view>
+<view><view class="page"><button type="default" data-event-opts="{{[['tap',[['china',['$event']]]]]}}" bindtap="__e">中国</button><text>euifdoewoew</text><button type="default" data-event-opts="{{[['tap',[['overseas',['$event']]]]]}}" bindtap="__e">海外</button></view></view>
