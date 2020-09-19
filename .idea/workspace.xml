@@ -19,7 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9289282b-ad8e-4f52-9ae8-f80558a9817f" name="Default Changelist" comment="" />
+    <list default="true" id="9289282b-ad8e-4f52-9ae8-f80558a9817f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/code/phone_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/phone.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phone.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/add_database.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/add_database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/news_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/news_data_test2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone_backstage/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/phone_backstage/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -154,7 +162,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="news_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="news_data_test2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="phone" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -167,7 +175,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/news_data.py" />
+      <option name="SCRIPT_NAME" value="E:\py\phone\code\news_data_test2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -176,7 +184,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="phone_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="phone" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -184,12 +192,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/phone_backstage" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/phone_backstage/views.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/phone_data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -201,12 +209,24 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.add_database" />
-        <item itemvalue="Python.news_data" />
+        <item itemvalue="Python.phone_data" />
+        <item itemvalue="Python.news_data_test2" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.builder" />
-        <item itemvalue="Python.views" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -231,6 +251,7 @@
       <workItem from="1600223737666" duration="9164000" />
       <workItem from="1600270442446" duration="4049000" />
       <workItem from="1600437331505" duration="12356000" />
+      <workItem from="1600502429287" duration="7933000" />
     </task>
     <task id="LOCAL-00001">
       <created>1598423982610</created>
@@ -376,7 +397,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -388,12 +409,13 @@
         </entry>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create README.md" />
@@ -412,11 +434,11 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="552" y="183" key="#Notifications/0.0.1920.1050@0.0.1920.1050" timestamp="1598419519755" />
-    <state x="552" y="0" key="CommitChangelistDialog2" timestamp="1600452467633">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="552" y="0" key="CommitChangelistDialog2" timestamp="1600511141682">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="552" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1600452467633" />
-    <state x="552" y="0" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1600163398710" />
+    <state x="552" y="0" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1600511141682" />
     <state x="-27" y="124" width="1736" height="858" key="DiffContextDialog" timestamp="1600357056843">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -431,26 +453,26 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="775" y="416" width="394" height="218" key="Github.CreateGistDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1598425152339" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1600357352217">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="264" key="GridCell.Tab.0.bottom" timestamp="1600506669493">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600357352217" />
-    <state width="1877" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1599555985826" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1600357352216">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1600506669493" />
+    <state width="1877" height="264" key="GridCell.Tab.0.center" timestamp="1600506669493">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600357352216" />
-    <state width="1877" height="264" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1599555985825" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1600357352216">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="264" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1600506669493" />
+    <state width="1877" height="264" key="GridCell.Tab.0.left" timestamp="1600506669492">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600357352216" />
-    <state width="1877" height="264" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1599555985825" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1600357352216">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="264" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1600506669492" />
+    <state width="1877" height="264" key="GridCell.Tab.0.right" timestamp="1600506669493">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600357352216" />
-    <state width="1877" height="264" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1599555985825" />
+    <state width="1877" height="264" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1600506669493" />
     <state width="1877" height="329" key="GridCell.Tab.1.bottom" timestamp="1599100145891">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -479,11 +501,11 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="766" y="151" key="RollbackChangesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1598425089266" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1600272270750">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="461" y="167" key="SettingsEditor" timestamp="1600502581465">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600272270750" />
-    <state x="461" y="167" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1600223838482" />
+    <state x="461" y="167" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1600502581465" />
     <state x="92" y="92" width="1736" height="866" key="ShowDiffWithBranchDialog" timestamp="1598418556731">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -513,11 +535,11 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="739" y="303" key="git4idea.merge.GitMergeDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1598425078998" />
-    <state x="677" y="295" key="git4idea.merge.GitPullDialog" timestamp="1600452400828">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="677" y="298" key="git4idea.merge.GitPullDialog" timestamp="1600511055339">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="677" y="295" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600452400828" />
-    <state x="677" y="298" key="git4idea.merge.GitPullDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1600253377730" />
+    <state x="677" y="298" key="git4idea.merge.GitPullDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1600511055339" />
     <state x="754" y="367" key="git4idea.rebase.GitRebaseDialog" timestamp="1598424176063">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -533,12 +555,13 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/phone$news_data__1_.coverage" NAME="news_data (1) Coverage Results" MODIFIED="1599023582791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/phone$builder.coverage" NAME="builder Coverage Results" MODIFIED="1599188644414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/Python/Python36/Lib/site-packages/kivy/lang" />
-    <SUITE FILE_PATH="coverage/phone$add_database.coverage" NAME="add_database Coverage Results" MODIFIED="1600352822449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
-    <SUITE FILE_PATH="coverage/phone$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1599019558186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/phone$views.coverage" NAME="views Coverage Results" MODIFIED="1599039661624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/phone_backstage" />
-    <SUITE FILE_PATH="coverage/phone$test.coverage" NAME="test Coverage Results" MODIFIED="1599020365059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/phone$news_data.coverage" NAME="news_data Coverage Results" MODIFIED="1600349049260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
     <SUITE FILE_PATH="coverage/phone$main.coverage" NAME="main Coverage Results" MODIFIED="1599537401432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/phone_app" />
+    <SUITE FILE_PATH="coverage/phone$news_data.coverage" NAME="news_data Coverage Results" MODIFIED="1600503944131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
+    <SUITE FILE_PATH="coverage/phone$views.coverage" NAME="views Coverage Results" MODIFIED="1599039661624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/phone_backstage" />
+    <SUITE FILE_PATH="coverage/phone$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1599019558186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/phone$phone_data.coverage" NAME="phone_data Coverage Results" MODIFIED="1600506322149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
+    <SUITE FILE_PATH="coverage/phone$test.coverage" NAME="test Coverage Results" MODIFIED="1599020365059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/phone$builder.coverage" NAME="builder Coverage Results" MODIFIED="1599188644414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/Python/Python36/Lib/site-packages/kivy/lang" />
+    <SUITE FILE_PATH="coverage/phone$add_database.coverage" NAME="add_database Coverage Results" MODIFIED="1600506619528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
   </component>
 </project>

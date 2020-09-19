@@ -1,12 +1,14 @@
 import pymysql,time
-from news_data import sms
-from news_data import yunduanxin
+from phone_data import sms
+from phone_data import yunduanxin
 
 
 #实例化爬取数据函数
 sms_data=sms()
 yunduanxin_data=yunduanxin()
 #两个list合并一个list
+print(sms_data)
+print(yunduanxin_data)
 phone_list=sms_data[1]+yunduanxin_data[1]
 Area_code_list=sms_data[0]+yunduanxin_data[0]
 country_url_list=sms_data[2]+yunduanxin_data[2]
