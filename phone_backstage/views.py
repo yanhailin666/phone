@@ -2,7 +2,7 @@ from django.shortcuts import render
 import urllib
 from bs4 import BeautifulSoup
 from .models import *
-import json
+import json,requests
 from django.core import serializers
 from django.http import HttpResponse, JsonResponse
 from django.db import connection
@@ -43,14 +43,10 @@ def overseas(request):
     return JsonResponse({"json_list": json_list})
 
 def information(request,):
-    phone="17190077130"
+    phone="13347470101"
     phone_dat = phone_test.objects.values().get(phone=phone)
     #print(goods["information_url"])
-    url=phone_dat["information_url"]+phone
-    page = urllib.request.urlopen(url)
-    html = page.read().decode('utf-8')
-    # print(html)
-    bs = BeautifulSoup(html, "html.parser")
-    nr = bs.find(class_="container")
-    #print(nr)
+    url=phone_dat["information_url"]
+    #url="http://m.baidu.com/"
+    html=requests.get(url)
     return HttpResponse(html)

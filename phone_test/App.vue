@@ -1,4 +1,5 @@
 <script>
+import uniNavBar from "@/components/uni-nav-bar/uni-nav-bar.vue"
 	export default {
 		onLaunch: function() {
 			console.log('App Launch')
@@ -8,7 +9,9 @@
 		},
 		onHide: function() {
 			console.log('App Hide')
-		}
+		},
+		components: {uniNavBar},
+		
 	}
 </script>
 
@@ -20,5 +23,6 @@
 		background-color: #ffffff;
 		position: absolute;
 		/*background:url(static/ico/kpy.jpg)背景图片*/
+		
 	}
 </style>

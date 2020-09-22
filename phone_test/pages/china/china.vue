@@ -3,16 +3,13 @@
 		<view class="page">
 			<view v-for="(item,index) in phone_list":key="index">
 				<button type="default" @click="handleClick(item)">{{item.phone}}</button>
-				<uni-nav-bar left-icon="back" left-text="返回" right-text="菜单" title="导航栏组件"></uni-nav-bar>
 			</view>
 		</view>
 	</view>
 </template>
 
 <script>	
-import uniNavBar from "@/components/uni-nav-bar/uni-nav-bar.vue"
 	export default {
-		components: {uniNavBar},
 		data() {
 			return{
 				showImg:false,

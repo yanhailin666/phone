@@ -1,22 +1,5 @@
 <template>
-	<view>
-		这个是信息页
-	</view>
+    <view>
+        <web-view :webview-styles="webviewStyles" src="https://yhl.free.qydev.com/phone/information"></web-view>
+    </view>
 </template>
-
-<script>
-	export default {
-		data() {
-			return {
-				
-			}
-		},
-		methods: {
-			
-		}
-	}
-</script>
-
-<style>
-
-</style>
