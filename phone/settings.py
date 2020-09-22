@@ -26,8 +26,7 @@ SECRET_KEY = '0$e(-jr3ej4u$)bf99$2cn1nb$4@7_6=2z&yp^$%!mfix2v%sn'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ["yhl.free.qydev.com"]
 
 # Application definition
 
