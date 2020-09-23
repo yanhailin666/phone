@@ -2,7 +2,7 @@
 	<view>
 		<view class="page">
 			<view v-for="(item,index) in phone_list":key="index">
-				<button type="default" @click="handleClick(item)">{{item.phone}}</button>
+				<button type="default" @click="comment(item.information_url,item.phone)">{{item.phone}}</button>
 			</view>
 		</view>
 	</view>
@@ -21,6 +21,11 @@
 			this.showImg=true;
 		},
 		methods: {
+			comment:function(information_url,phone){
+					uni.navigateTo({
+						url:'../message/message?information_url='+information_url+'&phone='+phone
+					});
+				},
 			handleClick(item) {
 				plus.webview.open(item.information_url + item.phone); //定义一个方法直接跳转到url
 			},
