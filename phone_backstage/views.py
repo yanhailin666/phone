@@ -17,10 +17,14 @@ def china(request):
     for good in goods:
         json_dict = {}
         aa = good.country
+        bb =good.information_url
         if aa.rstrip() == "+86":
             json_dict["country"] = good.country
-            json_dict["phone"] = good.phone
             json_dict["information_url"] = good.information_url
+            if bb =="https://yunduanxin.net/info/":
+                json_dict["phone"] = "86"+good.phone
+            else:
+                json_dict["phone"] = good.phone
             json_list.append(json_dict)
         else:
             pass

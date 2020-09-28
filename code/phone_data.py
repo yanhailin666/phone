@@ -39,7 +39,7 @@ def sms():#http://www.z-sms.com
             # print(area_list)
             for k in phone:
                 # print(i.text)
-                country_url=tempUrl+country
+                country_url=tempUrl+country+k.text
                 phone_list.append(k.text)
                 country_url_list.append(country_url)
                 tempUrl_list.append(tempUrl)
@@ -81,8 +81,14 @@ def yunduanxin():
                 # print(k.text)
                 qq = (k.text)
                 phone = qq.split(" ")  # 利用空格进行切割
-                # print(phone)
-                country_url = tempUrl + country
+                #print(phone[0])
+                Area_code_code= re.findall("\d+", phone[0])#匹配数字
+                #print(Area_code_code)
+                for match in Area_code_code:
+                    pass
+                    #print(match)
+                country_url = tempUrl + country+match+phone[1]+"/"
+                #print(country_url)
                 Area_code_list.append(phone[0])
                 phone_list.append(phone[1])
                 country_url_list.append(country_url)
@@ -97,3 +103,4 @@ def yunduanxin():
     except urllib.error.URLError:
         print(tempUrl + '=访问页面出错')
         time.sleep(2)
+

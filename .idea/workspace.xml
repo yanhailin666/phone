@@ -20,7 +20,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9289282b-ad8e-4f52-9ae8-f80558a9817f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/log/Error/QWebFX_Error_2020-09-24.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/Error/QWebFX_Error_2020-09-28.log" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/log/QWebFX_2020-09-22.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/QWebFX_2020-09-24.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/QWebFX_2020-09-28.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/Request/QWebFX_Request_2020-09-24.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/Request/QWebFX_Request_2020-09-28.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/Script/QWebFX_Script_2020-09-24.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/Script/QWebFX_Script_2020-09-28.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phone_test/common/airport.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phone_test/common/graceChecker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phone_test/common/html-parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phone_test/common/permission.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phone_test/common/uni-nvue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phone_test/common/uni.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phone_test/common/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phone_test/pages/china/china.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phone_test/pages/shop/shop.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_17_21_19_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_17_21_19__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/phone_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/phone_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/phone/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone_backstage/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/phone_backstage/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone_test/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/phone_test/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone_test/pages.json" beforeDir="false" afterPath="$PROJECT_DIR$/phone_test/pages.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone_test/pages/china/china.vue" beforeDir="false" afterPath="$PROJECT_DIR$/phone_test/pages/china/china.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone_test/pages/message/message.vue" beforeDir="false" afterPath="$PROJECT_DIR$/phone_test/pages/message/message.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone_test/pages/overseas/overseas.vue" beforeDir="false" afterPath="$PROJECT_DIR$/phone_test/pages/overseas/overseas.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/app-plus/app-config-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/app-plus/app-config-service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/app-plus/app-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/app-plus/app-service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/app-plus/app-view.js" beforeDir="false" afterPath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/app-plus/app-view.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/app-plus/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/app-plus/manifest.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +109,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -243,6 +275,9 @@
       <workItem from="1600677629182" duration="665000" />
       <workItem from="1600743186301" duration="6297000" />
       <workItem from="1600787765805" duration="2857000" />
+      <workItem from="1600883400311" duration="64000" />
+      <workItem from="1600956970418" duration="5741000" />
+      <workItem from="1601301293807" duration="1514000" />
     </task>
     <task id="LOCAL-00001">
       <created>1598423982610</created>
@@ -398,7 +433,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600793163307</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="第二次提交">
+      <created>1600883447623</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1600883447623</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -438,44 +480,44 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="552" y="183" key="#Notifications/0.0.1920.1050@0.0.1920.1050" timestamp="1598419519755" />
-    <state x="552" y="0" key="CommitChangelistDialog2" timestamp="1600793162419">
+    <state x="552" y="0" key="CommitChangelistDialog2" timestamp="1600883446750">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1600793162419" />
+    <state x="552" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1600883446750" />
     <state x="552" y="0" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1600511189417" />
     <state x="-27" y="124" width="1736" height="858" key="DiffContextDialog" timestamp="1600357056843">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-27" y="124" width="1736" height="858" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600357056843" />
     <state x="-27" y="125" width="1736" height="866" key="DiffContextDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1598424075377" />
-    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1600671694008">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="740" y="277" key="FileChooserDialogImpl" timestamp="1600960054857">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600442627686" />
+    <state x="740" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600960054857" />
     <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1600671694008" />
     <state x="775" y="416" width="394" height="218" key="Github.CreateGistDialog" timestamp="1598425152339">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="775" y="416" width="394" height="218" key="Github.CreateGistDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1598425152339" />
-    <state width="1877" height="264" key="GridCell.Tab.0.bottom" timestamp="1600506669493">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1600965806097">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600357352217" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600965806097" />
     <state width="1877" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1600506669493" />
-    <state width="1877" height="264" key="GridCell.Tab.0.center" timestamp="1600506669493">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1600965806096">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600357352216" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600965806096" />
     <state width="1877" height="264" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1600506669493" />
-    <state width="1877" height="264" key="GridCell.Tab.0.left" timestamp="1600506669492">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1600965806096">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600357352216" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600965806096" />
     <state width="1877" height="264" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1600506669492" />
-    <state width="1877" height="264" key="GridCell.Tab.0.right" timestamp="1600506669493">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1600965806096">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600357352216" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600965806096" />
     <state width="1877" height="264" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1600506669493" />
     <state width="1877" height="329" key="GridCell.Tab.1.bottom" timestamp="1599100145891">
       <screen x="0" y="0" width="1920" height="1050" />
@@ -514,10 +556,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="92" y="92" width="1736" height="866" key="ShowDiffWithBranchDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1598418556731" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1600793196477">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1600883449853">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600793196477" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600883449853" />
     <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1600511906631" />
     <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1598419528311">
       <screen x="0" y="0" width="1920" height="1050" />
@@ -560,8 +602,8 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/phone$news_data__1_.coverage" NAME="news_data (1) Coverage Results" MODIFIED="1599023582791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/phone$builder.coverage" NAME="builder Coverage Results" MODIFIED="1599188644414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/Python/Python36/Lib/site-packages/kivy/lang" />
-    <SUITE FILE_PATH="coverage/phone$add_database.coverage" NAME="add_database Coverage Results" MODIFIED="1600506619528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
-    <SUITE FILE_PATH="coverage/phone$phone_data.coverage" NAME="phone_data Coverage Results" MODIFIED="1600506322149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
+    <SUITE FILE_PATH="coverage/phone$add_database.coverage" NAME="add_database Coverage Results" MODIFIED="1600962491762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
+    <SUITE FILE_PATH="coverage/phone$phone_data.coverage" NAME="phone_data Coverage Results" MODIFIED="1600962419958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
     <SUITE FILE_PATH="coverage/phone$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1599019558186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/phone$views.coverage" NAME="views Coverage Results" MODIFIED="1599039661624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/phone_backstage" />
     <SUITE FILE_PATH="coverage/phone$test.coverage" NAME="test Coverage Results" MODIFIED="1599020365059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

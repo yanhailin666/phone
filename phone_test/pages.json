@@ -2,23 +2,39 @@
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
         {
             "path" : "pages/home/home",
-            "style" :{}
+            "style" :{
+				"navigationBarTitleText":"首页"
+			}
         }
         ,{
             "path" : "pages/my/my",
-            "style" : {}
+            "style" : {
+				"navigationBarTitleText":"我的"
+			}
         }
         ,{
             "path" : "pages/message/message",
-            "style" : {}
+            "style" : {
+				"navigationBarTitleText":"短信页"
+			}
         }
         ,{
             "path" : "pages/china/china",
-            "style" : {}
+            "style" : {
+				"navigationBarTitleText":"手机号"
+			}
         }
         ,{
             "path" : "pages/overseas/overseas",
-            "style" : {}
+            "style" : {
+				"navigationBarTitleText":"手机号"
+			}
+        }
+        ,{
+            "path" : "pages/shop/shop",
+            "style" : {
+				"navigationBarTitleText":"商场"
+			}
         }
     ],
 	"globalStyle": {
@@ -36,6 +52,12 @@
 				"pagePath":"pages/home/home",
 				"iconPath":"static/ico/home.png",
 				"selectedIconPath":"static/ico/home_no.png"
+			},
+			{
+				"text":"商场",
+				"pagePath":"pages/shop/shop",
+				"iconPath":"static/ico/message.png",
+				"selectedIconPath":"static/ico/message_no.png"
 			},
 			{
 				"text":"我的",

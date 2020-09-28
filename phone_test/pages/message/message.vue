@@ -1,6 +1,6 @@
 <template>
     <view>
-		<navigator url={{this.url.information_url}}+{{{{this.url.phone}}}}></navigator>
+		<web-view :webview-styles="webviewStyles" :src="url"></web-view>
     </view>
 </template>
 
@@ -9,13 +9,18 @@
 export default {
 	data(){
 		return{
-			url:this.url.information_url+this.url.phone,
+			url:'',
+			webviewStyles:{
+				progress:{
+					color:'#FF3333'
+				}
+			}
 		}
 	},
-    onLoad: function (option) { //option为object类型，会序列化上个页面传递的参数
-		this.url=option
-  //       console.log(option.information_url); //打印出上个页面传递的参数。
-		// console.log(option.phone);
+    onLoad(e) {
+    	this.information_url=e.information_url
+		// this.phone=e.phone
+		this.url=this.information_url//+this.phone
 		console.log(this.url);
     }
 }
@@ -39,4 +44,10 @@ export default {
         <web-view :webview-styles="webviewStyles" src="https://yhl.free.qydev.com/phone/information"></web-view>
     </view>
 </template>
+onLoad: function (option) { //option为object类型，会序列化上个页面传递的参数
+		this.url=option
+  //       console.log(option.information_url); //打印出上个页面传递的参数。
+		// console.log(option.phone);
+		console.log(this.url);
+    }
  -->
