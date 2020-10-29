@@ -46,7 +46,7 @@ def overseas(request):
             json_list.append(json_dict)
     return JsonResponse({"json_list": json_list})
 
-def information(request,):
+def information(request,):#前端截取url进行跳转，暂时不用
     phone="13347470101"
     phone_dat = phone_test.objects.values().get(phone=phone)
     #print(goods["information_url"])
@@ -54,3 +54,16 @@ def information(request,):
     #url="http://m.baidu.com/"
     html=requests.get(url)
     return HttpResponse(html)
+
+def add_gps_position(request):#get
+    if request.method == 'GET':
+        data=request.GET.get('data',"")
+        print((data))
+        title=request.GET.get('title')#标题
+        content = request.GET.get('content')#内容
+        brand = request.GET.get('brand')#手机品牌
+        model = request.GET.get('model')#手机型号
+        #print(title,content,brand,model)
+        model_data=gps_position.objects.create(title=title,content=content,phone_models=brand+";"+model)
+        model_data.save()
+    return JsonResponse({"data":"分享成功"})

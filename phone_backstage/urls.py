@@ -6,5 +6,6 @@ from .views import *
 urlpatterns = [
     path('information',information),
     path('china',china),
-    path('overseas',overseas)
+    path('overseas',overseas),
+    path('add_gps_position',add_gps_position)
 ]

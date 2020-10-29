@@ -1,7 +1,6 @@
 <template>
 	<view>
-		<title>商场</title>
-		<web-view :webview-styles="webviewStyles" src="https://cn1.mx5180.com/app/index.php?i=1&c=entry&do=pddindex&m=tuike_pdd"></web-view>
+		<button @click="pdd()">拼多多商场</button>
 	</view>
 </template>
 
@@ -16,6 +15,13 @@ export default {
 					color:'#FF3333'
 				}
 			}
+		}
+	},
+	methods:{
+		pdd(){
+			uni.navigateTo({
+				url:'../pdd_shop/pdd_shop?pdd_url=https://cn1.mx5180.com/app/index.php?i=1&c=entry&do=pddindex&m=tuike_pdd'
+			})
 		}
 	}
 }

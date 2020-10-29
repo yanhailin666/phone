@@ -1,9 +1,0 @@
-2020-09-22 13:01:26,682 [django.request:230] [log:log_response] [WARNING] Bad Request: /
-2020-09-22 13:01:27,359 [django.request:230] [log:log_response] [WARNING] Bad Request: /favicon.ico
-2020-09-22 13:01:46,484 [django.request:230] [log:log_response] [WARNING] Bad Request: /phone/china
-2020-09-22 13:03:10,638 [django.request:230] [log:log_response] [WARNING] Bad Request: /phone/china
-2020-09-22 13:29:27,477 [django.request:230] [log:log_response] [WARNING] Bad Request: /phone/china
-2020-09-22 13:29:41,259 [django.request:230] [log:log_response] [WARNING] Bad Request: /phone/overseas
-2020-09-22 14:48:23,469 [django.request:230] [log:log_response] [WARNING] Not Found: /
-2020-09-22 14:55:27,185 [django.request:230] [log:log_response] [WARNING] Not Found: /
-2020-09-22 16:51:29,160 [django.request:230] [log:log_response] [WARNING] Not Found: /

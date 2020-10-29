@@ -1,7 +1,0 @@
-2020-09-24 22:37:38,496 [django.request:230] [log:log_response] [WARNING] Not Found: /
-2020-09-24 22:37:38,592 [django.request:230] [log:log_response] [WARNING] Not Found: /favicon.ico
-2020-09-24 23:12:06,485 [django.request:230] [log:log_response] [WARNING] Bad Request: /
-2020-09-24 23:12:06,802 [django.request:230] [log:log_response] [WARNING] Bad Request: /favicon.ico
-2020-09-24 23:12:15,939 [django.request:230] [log:log_response] [WARNING] Bad Request: /phone
-2020-09-24 23:12:16,210 [django.request:230] [log:log_response] [WARNING] Bad Request: /favicon.ico
-2020-09-24 23:12:37,563 [django.request:230] [log:log_response] [WARNING] Not Found: /favicon.ico

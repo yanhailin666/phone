@@ -11,3 +11,11 @@ class phone_test(models.Model):
     source = models.CharField(max_length=100,verbose_name='来源网站')
     Creation_time = models.CharField(max_length=30,verbose_name='创建时间')
 
+class gps_position(models.Model):
+    phone_models=models.CharField(max_length=1000,verbose_name='手机型号')
+    title=models.CharField(max_length=1000,verbose_name='标题')
+    content=models.CharField(max_length=1000,verbose_name='内容')
+    longitude = models.CharField(max_length=1000, verbose_name='经度')
+    latitude = models.CharField(max_length=1000, verbose_name='纬度')
+    detailed_address = models.CharField(max_length=1000, verbose_name='详细地址')
+    creation_time = models.CharField(max_length=1000, verbose_name='创建时间')

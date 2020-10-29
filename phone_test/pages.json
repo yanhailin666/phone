@@ -7,7 +7,7 @@
 			}
         }
         ,{
-            "path" : "pages/my/my",
+            "path" : "pages/location/location",
             "style" : {
 				"navigationBarTitleText":"我的"
 			}
@@ -36,6 +36,22 @@
 				"navigationBarTitleText":"商场"
 			}
         }
+        ,{
+            "path" : "pages/pdd_shop/pdd_shop",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/taobao_shop/taobao_shop",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/jd_shop/jd_shop",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/share/share",
+            "style" : {}
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
@@ -60,8 +76,14 @@
 				"selectedIconPath":"static/ico/message_no.png"
 			},
 			{
-				"text":"我的",
-				"pagePath":"pages/my/my",
+				"text":"定位",
+				"pagePath":"pages/location/location",
+				"iconPath":"static/ico/my.png",
+				"selectedIconPath":"static/ico/my_no.png"
+			},
+			{
+				"text":"分享",
+				"pagePath":"pages/share/share",
 				"iconPath":"static/ico/my.png",
 				"selectedIconPath":"static/ico/my_no.png"
 			}
