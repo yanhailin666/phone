@@ -1,0 +1,166 @@
+2020-11-09 21:45:24,343 [django.request:230] [log:log_response] [WARNING] Not Found: /phone/update_gps_position
+2020-11-09 21:45:24,473 [django.request:230] [log:log_response] [WARNING] Not Found: /favicon.ico
+2020-11-09 22:06:19,894 [django.request:230] [log:log_response] [ERROR] Internal Server Error: /phone/add_gps_position
+Traceback (most recent call last):
+  File "G:\Program Files\python\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "G:\Program Files\python\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "G:\Program Files\python\lib\site-packages\pymysql\cursors.py", line 163, in execute
+    result = self._query(query)
+  File "G:\Program Files\python\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "G:\Program Files\python\lib\site-packages\pymysql\connections.py", line 505, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "G:\Program Files\python\lib\site-packages\pymysql\connections.py", line 724, in _read_query_result
+    result.read()
+  File "G:\Program Files\python\lib\site-packages\pymysql\connections.py", line 1069, in read
+    first_packet = self.connection._read_packet()
+  File "G:\Program Files\python\lib\site-packages\pymysql\connections.py", line 676, in _read_packet
+    packet.raise_for_error()
+  File "G:\Program Files\python\lib\site-packages\pymysql\protocol.py", line 223, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "G:\Program Files\python\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1048, "Column 'time' cannot be null")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "G:\Program Files\python\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Program Files\python\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\py_jiaoben\phone\phone_backstage\views.py", line 68, in add_gps_position
+    model_data=gps_position.objects.create(title=title,content=content,phone_models=brand+";"+model,time=time)
+  File "G:\Program Files\python\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "G:\Program Files\python\lib\site-packages\django\db\models\query.py", line 447, in create
+    obj.save(force_insert=True, using=self.db)
+  File "G:\Program Files\python\lib\site-packages\django\db\models\base.py", line 754, in save
+    force_update=force_update, update_fields=update_fields)
+  File "G:\Program Files\python\lib\site-packages\django\db\models\base.py", line 792, in save_base
+    force_update, using, update_fields,
+  File "G:\Program Files\python\lib\site-packages\django\db\models\base.py", line 895, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "G:\Program Files\python\lib\site-packages\django\db\models\base.py", line 935, in _do_insert
+    using=using, raw=raw,
+  File "G:\Program Files\python\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "G:\Program Files\python\lib\site-packages\django\db\models\query.py", line 1249, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "G:\Program Files\python\lib\site-packages\django\db\models\sql\compiler.py", line 1397, in execute_sql
+    cursor.execute(sql, params)
+  File "G:\Program Files\python\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "G:\Program Files\python\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "G:\Program Files\python\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "G:\Program Files\python\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "G:\Program Files\python\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "G:\Program Files\python\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "G:\Program Files\python\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "G:\Program Files\python\lib\site-packages\pymysql\cursors.py", line 163, in execute
+    result = self._query(query)
+  File "G:\Program Files\python\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "G:\Program Files\python\lib\site-packages\pymysql\connections.py", line 505, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "G:\Program Files\python\lib\site-packages\pymysql\connections.py", line 724, in _read_query_result
+    result.read()
+  File "G:\Program Files\python\lib\site-packages\pymysql\connections.py", line 1069, in read
+    first_packet = self.connection._read_packet()
+  File "G:\Program Files\python\lib\site-packages\pymysql\connections.py", line 676, in _read_packet
+    packet.raise_for_error()
+  File "G:\Program Files\python\lib\site-packages\pymysql\protocol.py", line 223, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "G:\Program Files\python\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.IntegrityError: (1048, "Column 'time' cannot be null")
+2020-11-09 22:20:22,116 [django.request:230] [log:log_response] [ERROR] Internal Server Error: /phone/add_gps_position
+Traceback (most recent call last):
+  File "G:\Program Files\python\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "G:\Program Files\python\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "G:\Program Files\python\lib\site-packages\pymysql\cursors.py", line 163, in execute
+    result = self._query(query)
+  File "G:\Program Files\python\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "G:\Program Files\python\lib\site-packages\pymysql\connections.py", line 505, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "G:\Program Files\python\lib\site-packages\pymysql\connections.py", line 724, in _read_query_result
+    result.read()
+  File "G:\Program Files\python\lib\site-packages\pymysql\connections.py", line 1069, in read
+    first_packet = self.connection._read_packet()
+  File "G:\Program Files\python\lib\site-packages\pymysql\connections.py", line 676, in _read_packet
+    packet.raise_for_error()
+  File "G:\Program Files\python\lib\site-packages\pymysql\protocol.py", line 223, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "G:\Program Files\python\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1048, "Column 'time' cannot be null")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "G:\Program Files\python\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Program Files\python\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\py_jiaoben\phone\phone_backstage\views.py", line 68, in add_gps_position
+    model_data=gps_position.objects.create(title=title,content=content,phone_models=brand+";"+model,time=time)
+  File "G:\Program Files\python\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "G:\Program Files\python\lib\site-packages\django\db\models\query.py", line 447, in create
+    obj.save(force_insert=True, using=self.db)
+  File "G:\Program Files\python\lib\site-packages\django\db\models\base.py", line 754, in save
+    force_update=force_update, update_fields=update_fields)
+  File "G:\Program Files\python\lib\site-packages\django\db\models\base.py", line 792, in save_base
+    force_update, using, update_fields,
+  File "G:\Program Files\python\lib\site-packages\django\db\models\base.py", line 895, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "G:\Program Files\python\lib\site-packages\django\db\models\base.py", line 935, in _do_insert
+    using=using, raw=raw,
+  File "G:\Program Files\python\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "G:\Program Files\python\lib\site-packages\django\db\models\query.py", line 1249, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "G:\Program Files\python\lib\site-packages\django\db\models\sql\compiler.py", line 1397, in execute_sql
+    cursor.execute(sql, params)
+  File "G:\Program Files\python\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "G:\Program Files\python\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "G:\Program Files\python\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "G:\Program Files\python\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "G:\Program Files\python\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "G:\Program Files\python\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "G:\Program Files\python\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "G:\Program Files\python\lib\site-packages\pymysql\cursors.py", line 163, in execute
+    result = self._query(query)
+  File "G:\Program Files\python\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "G:\Program Files\python\lib\site-packages\pymysql\connections.py", line 505, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "G:\Program Files\python\lib\site-packages\pymysql\connections.py", line 724, in _read_query_result
+    result.read()
+  File "G:\Program Files\python\lib\site-packages\pymysql\connections.py", line 1069, in read
+    first_packet = self.connection._read_packet()
+  File "G:\Program Files\python\lib\site-packages\pymysql\connections.py", line 676, in _read_packet
+    packet.raise_for_error()
+  File "G:\Program Files\python\lib\site-packages\pymysql\protocol.py", line 223, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "G:\Program Files\python\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.IntegrityError: (1048, "Column 'time' cannot be null")
