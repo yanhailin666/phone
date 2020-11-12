@@ -9,7 +9,7 @@
         ,{
             "path" : "pages/location/location",
             "style" : {
-				"navigationBarTitleText":"我的"
+				// "navigationBarTitleText":"我的"
 			}
         }
         ,{
@@ -75,12 +75,12 @@
 				"iconPath":"static/ico/message.png",
 				"selectedIconPath":"static/ico/message_no.png"
 			},
-			{
-				"text":"定位",
-				"pagePath":"pages/location/location",
-				"iconPath":"static/ico/my.png",
-				"selectedIconPath":"static/ico/my_no.png"
-			},
+			// {
+			// 	"text":"定位",
+			// 	"pagePath":"pages/location/location",
+			// 	"iconPath":"static/ico/my.png",
+			// 	"selectedIconPath":"static/ico/my_no.png"
+			// },
 			{
 				"text":"分享",
 				"pagePath":"pages/share/share",
