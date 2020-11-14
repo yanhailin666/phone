@@ -22,20 +22,6 @@
     <list default="true" id="9289282b-ad8e-4f52-9ae8-f80558a9817f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/phone/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/phone/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phone_backstage/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/phone_backstage/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phone_backstage/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/phone_backstage/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phone_backstage/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/phone_backstage/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phone_test/pages.json" beforeDir="false" afterPath="$PROJECT_DIR$/phone_test/pages.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phone_test/pages/location/location.vue" beforeDir="false" afterPath="$PROJECT_DIR$/phone_test/pages/location/location.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phone_test/pages/share/share.vue" beforeDir="false" afterPath="$PROJECT_DIR$/phone_test/pages/share/share.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/app-plus/__uniappscan.js" beforeDir="false" afterPath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/app-plus/__uniappscan.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/app-plus/__uniappview.html" beforeDir="false" afterPath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/app-plus/__uniappview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/app-plus/app-config-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/app-plus/app-config-service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/app-plus/app-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/app-plus/app-service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/app-plus/app-view.js" beforeDir="false" afterPath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/app-plus/app-view.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/app-plus/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/app-plus/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/app-plus/view.css" beforeDir="false" afterPath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/app-plus/view.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/app-plus/view.umd.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/app-plus/view.umd.min.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -269,7 +255,7 @@
       <workItem from="1604129336770" duration="1449000" />
       <workItem from="1604836530892" duration="1345000" />
       <workItem from="1604928904525" duration="2604000" />
-      <workItem from="1605189792402" duration="917000" />
+      <workItem from="1605189792402" duration="1116000" />
     </task>
     <task id="LOCAL-00001">
       <created>1598423982610</created>
@@ -446,7 +432,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603986158292</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="第三次提交">
+      <created>1605190990588</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1605190990588</updated>
+    </task>
+    <task id="LOCAL-00027" summary="分享接口">
+      <created>1605191029941</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1605191029941</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -478,6 +478,7 @@
     <MESSAGE value="代码管理" />
     <MESSAGE value="代码合并" />
     <MESSAGE value="第二次提交" />
+    <MESSAGE value="第三次提交" />
     <MESSAGE value="分享接口" />
     <option name="LAST_COMMIT_MESSAGE" value="分享接口" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
@@ -487,11 +488,11 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="552" y="183" key="#Notifications/0.0.1920.1050@0.0.1920.1050" timestamp="1598419519755" />
-    <state x="368" y="0" key="CommitChangelistDialog2" timestamp="1603986157026">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="552" y="0" key="CommitChangelistDialog2" timestamp="1605191029190">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="368" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1603986157026" />
-    <state x="552" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1601307442501" />
+    <state x="552" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1605191029190" />
     <state x="552" y="0" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1600511189417" />
     <state x="-27" y="124" width="1736" height="858" key="DiffContextDialog" timestamp="1600357056843">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -565,11 +566,11 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="92" y="92" width="1736" height="866" key="ShowDiffWithBranchDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1598418556731" />
-    <state x="368" y="146" key="Vcs.Push.Dialog.v2" timestamp="1603986203953">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1605191031801">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="368" y="146" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1603986203953" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601307446091" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605191031801" />
     <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1600511906631" />
     <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1598419528311">
       <screen x="0" y="0" width="1920" height="1050" />
