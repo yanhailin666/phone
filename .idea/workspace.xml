@@ -20,8 +20,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9289282b-ad8e-4f52-9ae8-f80558a9817f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/phone.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phone.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/phone/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/phone/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone_backstage/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone_backstage/migrations/0002_gps_position.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone_backstage/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/phone_backstage/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone_test/pages.json" beforeDir="false" afterPath="$PROJECT_DIR$/phone_test/pages.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone_test/pages/location/location.vue" beforeDir="false" afterPath="$PROJECT_DIR$/phone_test/pages/location/location.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone_test/pages/share/share.vue" beforeDir="false" afterPath="$PROJECT_DIR$/phone_test/pages/share/share.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/app-plus/__uniappchooselocation.js" beforeDir="false" afterPath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/app-plus/__uniappchooselocation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/app-plus/__uniappopenlocation.js" beforeDir="false" afterPath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/app-plus/__uniappopenlocation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/app-plus/__uniappquill.js" beforeDir="false" afterPath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/app-plus/__uniappquill.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/app-plus/app-config-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/app-plus/app-config-service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/app-plus/app-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/app-plus/app-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/app-plus/app-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/app-plus/app-service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/app-plus/app-view.js" beforeDir="false" afterPath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/app-plus/app-view.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/app-plus/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/app-plus/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/app-plus/view.css" beforeDir="false" afterPath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/app-plus/view.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/app-plus/view.umd.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/app-plus/view.umd.min.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -256,6 +275,9 @@
       <workItem from="1604836530892" duration="1345000" />
       <workItem from="1604928904525" duration="2604000" />
       <workItem from="1605189792402" duration="1116000" />
+      <workItem from="1611544768817" duration="3320000" />
+      <workItem from="1611548864631" duration="7253000" />
+      <workItem from="1611571724907" duration="1539000" />
     </task>
     <task id="LOCAL-00001">
       <created>1598423982610</created>
@@ -484,141 +506,35 @@
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="183" key="#Notifications" timestamp="1598419519755">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="552" y="183" key="#Notifications/0.0.1920.1050@0.0.1920.1050" timestamp="1598419519755" />
     <state x="552" y="0" key="CommitChangelistDialog2" timestamp="1605191029190">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="368" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1603986157026" />
     <state x="552" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1605191029190" />
-    <state x="552" y="0" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1600511189417" />
-    <state x="-27" y="124" width="1736" height="858" key="DiffContextDialog" timestamp="1600357056843">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-27" y="124" width="1736" height="858" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600357056843" />
-    <state x="-27" y="125" width="1736" height="866" key="DiffContextDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1598424075377" />
     <state x="493" y="181" key="FileChooserDialogImpl" timestamp="1603983051047">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="493" y="181" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1603983051047" />
     <state x="740" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1603120072784" />
-    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1600671694008" />
-    <state x="775" y="416" width="394" height="218" key="Github.CreateGistDialog" timestamp="1598425152339">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="775" y="416" width="394" height="218" key="Github.CreateGistDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1598425152339" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1600965806097">
+    <state x="461" y="145" key="SettingsEditor" timestamp="1611549664587">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600965806097" />
-    <state width="1877" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1600506669493" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1600965806096">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600965806096" />
-    <state width="1877" height="264" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1600506669493" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1600965806096">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600965806096" />
-    <state width="1877" height="264" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1600506669492" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1600965806096">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600965806096" />
-    <state width="1877" height="264" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1600506669493" />
-    <state width="1877" height="329" key="GridCell.Tab.1.bottom" timestamp="1599100145891">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1877" height="329" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1599100145891" />
-    <state width="1877" height="329" key="GridCell.Tab.1.center" timestamp="1599100145891">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1877" height="329" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1599100145891" />
-    <state width="1877" height="329" key="GridCell.Tab.1.left" timestamp="1599100145891">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1877" height="329" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1599100145891" />
-    <state width="1877" height="329" key="GridCell.Tab.1.right" timestamp="1599100145891">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1877" height="329" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1599100145891" />
-    <state x="184" y="87" key="MergeDialog" timestamp="1598432932101">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="184" y="87" key="MergeDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1598432932101" />
-    <state x="663" y="231" key="MultipleFileMergeDialog" timestamp="1598432932132">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="663" y="231" key="MultipleFileMergeDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1598432932132" />
-    <state x="766" y="151" key="RollbackChangesDialog" timestamp="1598425089266">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="766" y="151" key="RollbackChangesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1598425089266" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1600787819256">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600787819256" />
-    <state x="58" y="175" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1600675772283" />
-    <state x="92" y="92" width="1736" height="866" key="ShowDiffWithBranchDialog" timestamp="1598418556731">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="92" y="92" width="1736" height="866" key="ShowDiffWithBranchDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1598418556731" />
+    <state x="461" y="145" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1611549664587" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1605191031801">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="368" y="146" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1603986203953" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605191031801" />
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1600511906631" />
-    <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1598419528311">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1598419528311" />
-    <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1598433040307">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1598433040307" />
-    <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1598419545939">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1598419545939" />
-    <state x="751" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598423904362">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="751" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050@0.0.1920.1050" timestamp="1598423904362" />
-    <state x="739" y="303" key="git4idea.merge.GitMergeDialog" timestamp="1598425078998">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="739" y="303" key="git4idea.merge.GitMergeDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1598425078998" />
-    <state x="677" y="298" key="git4idea.merge.GitPullDialog" timestamp="1600743206039">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="677" y="295" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600452400828" />
-    <state x="677" y="298" key="git4idea.merge.GitPullDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1600743206039" />
-    <state x="754" y="367" key="git4idea.rebase.GitRebaseDialog" timestamp="1598424176063">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="754" y="367" key="git4idea.rebase.GitRebaseDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1598424176063" />
-    <state x="761" y="411" key="git4idea.ui.GitResetDialog" timestamp="1598425165010">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="761" y="411" key="git4idea.ui.GitResetDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1598425165010" />
-    <state x="761" y="357" key="git4idea.ui.GitTagDialog" timestamp="1598419949942">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="761" y="357" key="git4idea.ui.GitTagDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1598419949942" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/phone$news_data__1_.coverage" NAME="news_data (1) Coverage Results" MODIFIED="1599023582791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/phone$builder.coverage" NAME="builder Coverage Results" MODIFIED="1599188644414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/Python/Python36/Lib/site-packages/kivy/lang" />
     <SUITE FILE_PATH="coverage/phone$add_database.coverage" NAME="add_database Coverage Results" MODIFIED="1600962491762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
-    <SUITE FILE_PATH="coverage/phone$phone_data.coverage" NAME="phone_data Coverage Results" MODIFIED="1600962419958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
-    <SUITE FILE_PATH="coverage/phone$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1599019558186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/phone$views.coverage" NAME="views Coverage Results" MODIFIED="1599039661624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/phone_backstage" />
-    <SUITE FILE_PATH="coverage/phone$test.coverage" NAME="test Coverage Results" MODIFIED="1599020365059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/phone$news_data.coverage" NAME="news_data Coverage Results" MODIFIED="1600503944131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
     <SUITE FILE_PATH="coverage/phone$main.coverage" NAME="main Coverage Results" MODIFIED="1599537401432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/phone_app" />
+    <SUITE FILE_PATH="coverage/phone$test.coverage" NAME="test Coverage Results" MODIFIED="1599020365059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/phone$views.coverage" NAME="views Coverage Results" MODIFIED="1599039661624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/phone_backstage" />
+    <SUITE FILE_PATH="coverage/phone$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1599019558186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/phone$phone_data.coverage" NAME="phone_data Coverage Results" MODIFIED="1600962419958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
+    <SUITE FILE_PATH="coverage/phone$news_data.coverage" NAME="news_data Coverage Results" MODIFIED="1600503944131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
+    <SUITE FILE_PATH="coverage/phone$news_data__1_.coverage" NAME="news_data (1) Coverage Results" MODIFIED="1599023582791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

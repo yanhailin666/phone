@@ -27,7 +27,7 @@ SECRET_KEY = '0$e(-jr3ej4u$)bf99$2cn1nb$4@7_6=2z&yp^$%!mfix2v%sn'
 DEBUG = True
 
 #ALLOWED_HOSTS = ["yhl.free.qydev.com","127.0.0.1"]
-ALLOWED_HOSTS = ["192.168.43.245",'cn2.mx5180.com']
+ALLOWED_HOSTS = ["192.168.43.245",'cn2.mx5180.com','192.168.0.183']
 # Application definition
 
 INSTALLED_APPS = [

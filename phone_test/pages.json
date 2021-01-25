@@ -50,7 +50,18 @@
         }
         ,{
             "path" : "pages/share/share",
-            "style" : {}
+            "style" : {
+				"navigationBarTitleText":"定位"
+			}
+        }
+        ,{
+            "path" : "pages/my/my",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的",
+                "enablePullDownRefresh": false
+            }
+            
         }
     ],
 	"globalStyle": {
@@ -75,15 +86,15 @@
 				"iconPath":"static/ico/message.png",
 				"selectedIconPath":"static/ico/message_no.png"
 			},
-			// {
-			// 	"text":"定位",
-			// 	"pagePath":"pages/location/location",
-			// 	"iconPath":"static/ico/my.png",
-			// 	"selectedIconPath":"static/ico/my_no.png"
-			// },
 			{
-				"text":"分享",
+				"text":"定位",
 				"pagePath":"pages/share/share",
+				"iconPath":"static/ico/my.png",
+				"selectedIconPath":"static/ico/my_no.png"
+			},	
+			{
+				"text":"我的",
+				"pagePath":"pages/my/my",
 				"iconPath":"static/ico/my.png",
 				"selectedIconPath":"static/ico/my_no.png"
 			}
