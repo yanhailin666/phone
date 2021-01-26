@@ -11,10 +11,9 @@ import logging
 
 logger = logging.getLogger("console")#配置日志
 
-def analytic_coordinate(location_lat,location_lng):
-
-    # location_lat="113.339929"#经度
-    # location_lng="23.124703"#经度
+def analytic_coordinate(request):
+    location_lat = "113.419324"  # 经度
+    location_lng = "23.158925"  # 纬度
     key="VLDBZ-YPTK6-R2GSK-MVXAM-746YJ-LCBBF"
     api_url="https://apis.map.qq.com/ws/geocoder/v1/?location="
     url=api_url+location_lng+","+location_lat+"&"+"key="+key+"&get_poi=1"
@@ -24,16 +23,16 @@ def analytic_coordinate(location_lat,location_lng):
     analytic_data=json.loads(data)
     if str(analytic_data["status"])=="0":
         address=(analytic_data["result"]["address"])
-        #print(address)
-        return address
+        print(address)
     elif str(analytic_data["status"])=="310":
-        print("请求参数信息有误")
+        print ("请求参数信息有误")
     elif str(analytic_data["status"])=="311":
-        print("Key格式错误")
+        print ("Key格式错误")
     elif str(analytic_data["status"])=="306":
-        print("请求有护持信息请检查字符串")
+        print ("请求有护持信息请检查字符串")
     elif str(analytic_data["status"])=="110":
-        print("请求来源未被授权")
+        print ("请求来源未被授权")
+    return JsonResponse({"data": "修改成功"})
 
 
 def china(request):
@@ -88,7 +87,7 @@ def add_gps_position(request):#get
         content = request.GET.get('content')#内容`
         brand = request.GET.get('brand')#手机品牌
         model = request.GET.get('model')#手机型号
-        time=str(request.GET.get('time'))#时间戳
+        time= request.GET.get('time')#时间戳
         print(title,content,brand,model,time)
         phone_models=str(brand)+";"+str(model)
         model_data=gps_position.objects.create(title=title,content=content,phone_models=phone_models,time=time)
@@ -99,4 +98,31 @@ def update_gps_position(request):
     if request.method == 'GET':
         data=request.GET.get('data',"")
         print((data))
+        time = request.GET.get('time')  # 时间戳
+        lng= request.GET.get('lng')#经度
+        lat= request.GET.get('lat')#纬度
+        key = "VLDBZ-YPTK6-R2GSK-MVXAM-746YJ-LCBBF"
+        api_url = "https://apis.map.qq.com/ws/geocoder/v1/?location="
+        url = api_url + lng + "," + lat + "&" + "key=" + key + "&get_poi=1"
+        # print(url)
+        data = requests.get(url).text
+        # print(data)
+        analytic_data = json.loads(data)
+        if str(analytic_data["status"]) == "0":
+            address = (analytic_data["result"]["address"])
+            # print(address)
+            query_databates = gps_position.objects.get(time=time)  # 查询time时间戳为一样的进行修改
+            query_databates.latitude = lat
+            query_databates.longitude = lng
+            query_databates.detailed_address = address
+            query_databates.save()  # 执行更新数据库
+        elif str(analytic_data["status"]) == "310":
+            print("请求参数信息有误")
+        elif str(analytic_data["status"]) == "311":
+            print("Key格式错误")
+        elif str(analytic_data["status"]) == "306":
+            print("请求有护持信息请检查字符串")
+        elif str(analytic_data["status"]) == "110":
+            print("请求来源未被授权")
+        # /phone/update_gps_position?lng=113.419324&lat=23.158925&time=&title=%E6%B8%A9%E6%9F%94&content=%E7%8B%97%E7%8D%BE
     return JsonResponse({"data": "修改成功"})

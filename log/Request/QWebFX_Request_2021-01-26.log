@@ -1,0 +1,154 @@
+2021-01-26 13:03:16,478 [django.request:230] [log:log_response] [WARNING] Not Found: /phone/analytic_coordinate
+2021-01-26 13:03:16,520 [django.request:230] [log:log_response] [WARNING] Not Found: /favicon.ico
+2021-01-26 13:04:07,782 [django.request:230] [log:log_response] [ERROR] Internal Server Error: /phone/analytic_coordinate
+Traceback (most recent call last):
+  File "D:\Program Files\python\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Program Files\python\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: analytic_coordinate() takes 0 positional arguments but 1 was given
+2021-01-26 13:05:29,791 [django.request:230] [log:log_response] [ERROR] Internal Server Error: /phone/analytic_coordinate
+Traceback (most recent call last):
+  File "D:\Program Files\python\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Program Files\python\lib\site-packages\django\core\handlers\base.py", line 186, in _get_response
+    self.check_response(response, callback)
+  File "D:\Program Files\python\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    "instead." % name
+ValueError: The view phone_backstage.views.analytic_coordinate didn't return an HttpResponse object. It returned None instead.
+2021-01-26 13:05:31,887 [django.request:230] [log:log_response] [ERROR] Internal Server Error: /phone/analytic_coordinate
+Traceback (most recent call last):
+  File "D:\Program Files\python\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Program Files\python\lib\site-packages\django\core\handlers\base.py", line 186, in _get_response
+    self.check_response(response, callback)
+  File "D:\Program Files\python\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    "instead." % name
+ValueError: The view phone_backstage.views.analytic_coordinate didn't return an HttpResponse object. It returned None instead.
+2021-01-26 13:05:31,941 [django.request:230] [log:log_response] [WARNING] Not Found: /favicon.ico
+2021-01-26 13:07:30,494 [django.request:230] [log:log_response] [ERROR] Internal Server Error: /phone/analytic_coordinate
+Traceback (most recent call last):
+  File "D:\Program Files\python\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Program Files\python\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Program Files\python_code\phone\phone_backstage\views.py", line 36, in analytic_coordinate
+    return JsonResponse({data:address})
+UnboundLocalError: local variable 'address' referenced before assignment
+2021-01-26 13:08:03,064 [django.request:230] [log:log_response] [ERROR] Internal Server Error: /phone/analytic_coordinate
+Traceback (most recent call last):
+  File "D:\Program Files\python\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Program Files\python\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Program Files\python_code\phone\phone_backstage\views.py", line 36, in analytic_coordinate
+    return JsonResponse(address)
+UnboundLocalError: local variable 'address' referenced before assignment
+2021-01-26 13:08:49,776 [django.request:230] [log:log_response] [ERROR] Internal Server Error: /phone/analytic_coordinate
+Traceback (most recent call last):
+  File "D:\Program Files\python\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Program Files\python\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Program Files\python_code\phone\phone_backstage\views.py", line 36, in analytic_coordinate
+    return JsonResponse(data=address)
+UnboundLocalError: local variable 'address' referenced before assignment
+2021-01-26 13:10:39,325 [django.request:230] [log:log_response] [ERROR] Internal Server Error: /phone/analytic_coordinate
+Traceback (most recent call last):
+  File "D:\Program Files\python\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Program Files\python\lib\site-packages\django\core\handlers\base.py", line 186, in _get_response
+    self.check_response(response, callback)
+  File "D:\Program Files\python\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    "instead." % name
+ValueError: The view phone_backstage.views.analytic_coordinate didn't return an HttpResponse object. It returned None instead.
+2021-01-26 13:13:20,576 [django.request:230] [log:log_response] [ERROR] Internal Server Error: /phone/analytic_coordinate
+Traceback (most recent call last):
+  File "D:\Program Files\python\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Program Files\python\lib\site-packages\django\core\handlers\base.py", line 186, in _get_response
+    self.check_response(response, callback)
+  File "D:\Program Files\python\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    "instead." % name
+ValueError: The view phone_backstage.views.analytic_coordinate didn't return an HttpResponse object. It returned None instead.
+2021-01-26 13:13:48,344 [django.request:230] [log:log_response] [ERROR] Internal Server Error: /phone/analytic_coordinate
+Traceback (most recent call last):
+  File "D:\Program Files\python\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Program Files\python\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Program Files\python_code\phone\phone_backstage\views.py", line 28, in analytic_coordinate
+    return JsonResponse({"data": address})
+UnboundLocalError: local variable 'address' referenced before assignment
+2021-01-26 13:14:02,157 [django.request:230] [log:log_response] [ERROR] Internal Server Error: /phone/analytic_coordinate
+Traceback (most recent call last):
+  File "D:\Program Files\python\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Program Files\python\lib\site-packages\django\core\handlers\base.py", line 186, in _get_response
+    self.check_response(response, callback)
+  File "D:\Program Files\python\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    "instead." % name
+ValueError: The view phone_backstage.views.analytic_coordinate didn't return an HttpResponse object. It returned None instead.
+2021-01-26 13:15:07,944 [django.request:230] [log:log_response] [ERROR] Internal Server Error: /phone/analytic_coordinate
+Traceback (most recent call last):
+  File "D:\Program Files\python\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Program Files\python\lib\site-packages\django\core\handlers\base.py", line 186, in _get_response
+    self.check_response(response, callback)
+  File "D:\Program Files\python\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    "instead." % name
+ValueError: The view phone_backstage.views.analytic_coordinate didn't return an HttpResponse object. It returned None instead.
+2021-01-26 13:21:27,886 [django.request:230] [log:log_response] [ERROR] Internal Server Error: /phone/analytic_coordinate
+Traceback (most recent call last):
+  File "D:\Program Files\python\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Program Files\python\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_response(request, response)
+  File "D:\Program Files\python\lib\site-packages\django\middleware\clickjacking.py", line 26, in process_response
+    if response.get('X-Frame-Options') is not None:
+AttributeError: 'str' object has no attribute 'get'
+2021-01-26 13:22:13,580 [django.request:230] [log:log_response] [ERROR] Internal Server Error: /phone/analytic_coordinate
+Traceback (most recent call last):
+  File "D:\Program Files\python\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Program Files\python\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_response(request, response)
+  File "D:\Program Files\python\lib\site-packages\django\middleware\clickjacking.py", line 26, in process_response
+    if response.get('X-Frame-Options') is not None:
+AttributeError: 'str' object has no attribute 'get'
+2021-01-26 13:22:55,373 [django.request:230] [log:log_response] [ERROR] Internal Server Error: /phone/analytic_coordinate
+Traceback (most recent call last):
+  File "D:\Program Files\python\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Program Files\python\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_response(request, response)
+  File "D:\Program Files\python\lib\site-packages\django\middleware\clickjacking.py", line 26, in process_response
+    if response.get('X-Frame-Options') is not None:
+AttributeError: 'str' object has no attribute 'get'
+2021-01-26 13:23:33,508 [django.request:230] [log:log_response] [ERROR] Internal Server Error: /phone/analytic_coordinate
+Traceback (most recent call last):
+  File "D:\Program Files\python\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Program Files\python\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_response(request, response)
+  File "D:\Program Files\python\lib\site-packages\django\middleware\clickjacking.py", line 26, in process_response
+    if response.get('X-Frame-Options') is not None:
+AttributeError: 'str' object has no attribute 'get'
+2021-01-26 13:24:21,952 [django.request:230] [log:log_response] [ERROR] Internal Server Error: /phone/analytic_coordinate
+Traceback (most recent call last):
+  File "D:\Program Files\python\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Program Files\python\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_response(request, response)
+  File "D:\Program Files\python\lib\site-packages\django\middleware\clickjacking.py", line 26, in process_response
+    if response.get('X-Frame-Options') is not None:
+AttributeError: 'str' object has no attribute 'get'
+2021-01-26 13:24:52,169 [django.request:230] [log:log_response] [ERROR] Internal Server Error: /phone/analytic_coordinate
+Traceback (most recent call last):
+  File "D:\Program Files\python\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Program Files\python\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_response(request, response)
+  File "D:\Program Files\python\lib\site-packages\django\middleware\clickjacking.py", line 26, in process_response
+    if response.get('X-Frame-Options') is not None:
+AttributeError: 'str' object has no attribute 'get'

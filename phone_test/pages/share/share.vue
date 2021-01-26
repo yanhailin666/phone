@@ -104,7 +104,7 @@
 								//           "Token":`this.userToken`   //设置一下token即可
 								//     }
 								uni.request({
-									url:'http://192.168.43.151:8088/phone/add_gps_position',//'https://unidemo.dcloud.net.cn/ajax/echo/text?name=uni-app',//'http://192.168.31.121:8088/phone/add_gps_position',//需要换成本机的IP地址
+									url:'http://192.168.0.183:8088/phone/add_gps_position',//'https://unidemo.dcloud.net.cn/ajax/echo/text?name=uni-app',//'http://192.168.31.121:8088/phone/add_gps_position',//需要换成本机的IP地址
 									method:'GET',
 									header:{ 'content-type': 'application/x-www-form-urlencoded', },
 									//data:params,
