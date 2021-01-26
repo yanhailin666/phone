@@ -90,7 +90,8 @@ def add_gps_position(request):#get
         model = request.GET.get('model')#手机型号
         time=str(request.GET.get('time'))#时间戳
         print(title,content,brand,model,time)
-        model_data=gps_position.objects.create(title=title,content=content,phone_models=brand+";"+model+time)
+        phone_models=str(brand)+";"+str(model)
+        model_data=gps_position.objects.create(title=title,content=content,phone_models=phone_models,time=time)
         model_data.save()
     return JsonResponse({"data":"分享成功"})
 
