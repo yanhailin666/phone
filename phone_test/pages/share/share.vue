@@ -87,7 +87,7 @@
 							provider:menus.provider,
 							scene:menus.scene,
 							type: 0,
-							href: "https://cn3.mx5180.com/#/?tima="+time+"&title="+data.title+"&content="+data.content,
+							href: "https://cn3.mx5180.com/#/?time="+time+"&title="+data.title+"&content="+data.content,
 							title: data.title,
 							summary:data.content,//"我正在使用HBuilderX开发uni-app，赶紧跟我一起来体验！",//当作唯一标识
 							imageUrl: "https://img-cdn-qiniu.dcloud.net.cn/uniapp/images/uni@2x.png",
