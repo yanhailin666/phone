@@ -63,6 +63,15 @@
             }
             
         }
+        ,{
+            "path" : "pages/gps_positioning_query/gps_positioning_query",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

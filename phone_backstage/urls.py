@@ -9,5 +9,6 @@ urlpatterns = [
     path('overseas',overseas),
     path('add_gps_position',add_gps_position),
     path('update_gps_position',update_gps_position),
-    path('analytic_coordinate',analytic_coordinate)
+    path('analytic_coordinate',analytic_coordinate),
+    path('query_gps_position',query_gps_position)
 ]

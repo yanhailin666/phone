@@ -126,3 +126,19 @@ def update_gps_position(request):
             print("请求来源未被授权")
         # /phone/update_gps_position?lng=113.419324&lat=23.158925&time=&title=%E6%B8%A9%E6%9F%94&content=%E7%8B%97%E7%8D%BE
     return JsonResponse({"data": "修改成功"})
+
+def query_gps_position(request):#查询地址
+    if request.method == 'GET':
+        data=request.GET.get('data',"")
+        print((data))
+        brand = request.GET.get('brand')#手机品牌
+        model = request.GET.get('model')#手机型号
+        phone_models = str(brand) + ";" + str(model)
+        query_databates=gps_position.objects.get(phone_models=phone_models)#按手机型号进行查询
+        print(query_databates)
+        address_list=[]
+        for address in query_databates:#获取地址信息
+            address_dict={}
+            address_dict["address"]=address.detailed_address
+            address_list.append(address_dict)
+        return JsonResponse({"address_list":address_list})#返回地址到前端

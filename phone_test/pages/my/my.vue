@@ -1,8 +1,9 @@
 <template>
   <div class="test-component">
     <hm-head-portrait-card :options="options"></hm-head-portrait-card>
+	<navigator url="../gps_positioning_query/gps_positioning_query">GPS定位查询</navigator>
 	<!-- <button @click="points_query">积分查询</button>
-	<button @click="GPS_positioning_query">GPS定位查询</button>
+	<button @click="gps_positioning_query">GPS定位查询</button>
 	<button @click="IP_location_query">ip定位查询</button> -->
   </div>
 	  
