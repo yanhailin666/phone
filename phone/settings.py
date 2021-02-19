@@ -27,7 +27,7 @@ SECRET_KEY = '0$e(-jr3ej4u$)bf99$2cn1nb$4@7_6=2z&yp^$%!mfix2v%sn'
 DEBUG = True
 
 #ALLOWED_HOSTS = ["yhl.free.qydev.com","127.0.0.1"]
-ALLOWED_HOSTS = ["192.168.43.245",'cn2.mx5180.com','192.168.0.183']
+ALLOWED_HOSTS = ["192.168.43.245",'cn2.mx5180.com','192.168.43.151']
 # Application definition
 
 INSTALLED_APPS = [
@@ -95,7 +95,7 @@ DATABASES = {
         'HOST': '127.0.0.1',  # 数据库主机
         'PORT': 3306,  # 数据库端口
         'USER': 'root',  # 数据库用户名
-        'PASSWORD': '',  # 数据库用户密码
+        'PASSWORD': '123456',  # 数据库用户密码
         'NAME': 'test'  # 数据库名字
     }
 }

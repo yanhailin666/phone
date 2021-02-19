@@ -82,13 +82,13 @@ def information(request,):#前端截取url进行跳转，暂时不用
 def add_gps_position(request):#get
     if request.method == 'GET':
         data=request.GET.get('data',"")
-        print((data))
+        #print((data))
         title=request.GET.get('title')#标题
         content = request.GET.get('content')#内容`
         brand = request.GET.get('brand')#手机品牌
         model = request.GET.get('model')#手机型号
         time= request.GET.get('time')#时间戳
-        print(title,content,brand,model,time)
+        #print(title,content,brand,model,time)
         phone_models=str(brand)+";"+str(model)
         model_data=gps_position.objects.create(title=title,content=content,phone_models=phone_models,time=time)
         model_data.save()
@@ -99,12 +99,13 @@ def update_gps_position(request):
         data=request.GET.get('data',"")
         print((data))
         time = request.GET.get('time')  # 时间戳
-        lng= request.GET.get('lng')#经度
-        lat= request.GET.get('lat')#纬度
+        lng= str(request.GET.get('lng'))#经度
+        lat= str(request.GET.get('lat'))#纬度
         key = "VLDBZ-YPTK6-R2GSK-MVXAM-746YJ-LCBBF"
         api_url = "https://apis.map.qq.com/ws/geocoder/v1/?location="
-        url = api_url + lng + "," + lat + "&" + "key=" + key + "&get_poi=1"
-        # print(url)
+        #url = api_url + lng + "," + lat + "&" + "key=" + key + "&get_poi=1"
+        url = api_url + lat + "," + lng + "&" + "key=" + key + "&get_poi=1"
+        print(url)
         data = requests.get(url).text
         # print(data)
         analytic_data = json.loads(data)
@@ -134,11 +135,16 @@ def query_gps_position(request):#查询地址
         brand = request.GET.get('brand')#手机品牌
         model = request.GET.get('model')#手机型号
         phone_models = str(brand) + ";" + str(model)
-        query_databates=gps_position.objects.get(phone_models=phone_models)#按手机型号进行查询
+        print(phone_models)
+        query_databates=gps_position.objects.filter(phone_models=phone_models)#按手机型号进行查询
         print(query_databates)
         address_list=[]
         for address in query_databates:#获取地址信息
             address_dict={}
-            address_dict["address"]=address.detailed_address
+            address_dict["id"]=address.id#数据库id
+            address_dict["address"]=address.detailed_address#地址信息
+            address_dict["lat"]=address.latitude#纬度
+            address_dict["lng"]=address.longitude#经度
             address_list.append(address_dict)
         return JsonResponse({"address_list":address_list})#返回地址到前端
+        #return JsonResponse({"data": "查询成功"})

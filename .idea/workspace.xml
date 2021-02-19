@@ -21,10 +21,35 @@
   <component name="ChangeListManager">
     <list default="true" id="9289282b-ad8e-4f52-9ae8-f80558a9817f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phone_backstage/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/phone_backstage/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/Error/QWebFX_Error_2020-10-29.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/Error/QWebFX_Error_2020-10-31.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/Error/QWebFX_Error_2020-11-09.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/Error/QWebFX_Error_2021-01-26.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/QWebFX_2020-10-28.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/QWebFX_2020-10-29.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/QWebFX_2020-10-31.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/QWebFX_2020-11-09.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/QWebFX_2021-01-26.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/Request/QWebFX_Request_2020-10-29.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/Request/QWebFX_Request_2020-10-31.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/Request/QWebFX_Request_2020-11-09.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/Request/QWebFX_Request_2021-01-26.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/Script/QWebFX_Script_2020-10-29.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/Script/QWebFX_Script_2020-10-31.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/Script/QWebFX_Script_2020-11-09.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/Script/QWebFX_Script_2021-01-26.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/phone/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/phone_backstage/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/phone_backstage/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phone_test/pages.json" beforeDir="false" afterPath="$PROJECT_DIR$/phone_test/pages.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone_test/pages/gps_positioning_query/gps_positioning_query.vue" beforeDir="false" afterPath="$PROJECT_DIR$/phone_test/pages/gps_positioning_query/gps_positioning_query.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone_test/pages/location/location.vue" beforeDir="false" afterPath="$PROJECT_DIR$/phone_test/pages/location/location.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/phone_test/pages/my/my.vue" beforeDir="false" afterPath="$PROJECT_DIR$/phone_test/pages/my/my.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone_test/pages/share/share.vue" beforeDir="false" afterPath="$PROJECT_DIR$/phone_test/pages/share/share.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/app-plus/__uniappquill.js" beforeDir="false" afterPath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/app-plus/__uniappquill.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/app-plus/app-config-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/app-plus/app-config-service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/app-plus/app-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/app-plus/app-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/app-plus/app-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/app-plus/app-service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/app-plus/app-view.js" beforeDir="false" afterPath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/app-plus/app-view.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/app-plus/view.umd.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/app-plus/view.umd.min.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,11 +102,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -263,7 +289,13 @@
       <workItem from="1611548864631" duration="7253000" />
       <workItem from="1611571724907" duration="2479000" />
       <workItem from="1611624250298" duration="5490000" />
-      <workItem from="1611840651312" duration="2654000" />
+      <workItem from="1611840651312" duration="2805000" />
+      <workItem from="1611845624028" duration="25000" />
+      <workItem from="1612442363940" duration="2710000" />
+      <workItem from="1612533554220" duration="5958000" />
+      <workItem from="1612614926796" duration="1737000" />
+      <workItem from="1612704797753" duration="2369000" />
+      <workItem from="1612853958237" duration="757000" />
     </task>
     <task id="LOCAL-00001">
       <created>1598423982610</created>
@@ -468,7 +500,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611624460745</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="修改查询位置接口，新增查询gps界面">
+      <created>1611844844000</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1611844844000</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -503,29 +542,34 @@
     <MESSAGE value="第三次提交" />
     <MESSAGE value="分享接口" />
     <MESSAGE value="增加我的界面" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加我的界面" />
+    <MESSAGE value="修改查询位置接口，新增查询gps界面" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改查询位置接口，新增查询gps界面" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="0" key="CommitChangelistDialog2" timestamp="1611624460157">
+    <state x="552" y="0" key="CommitChangelistDialog2" timestamp="1611844843505">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="368" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1603986157026" />
-    <state x="552" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1611624460157" />
-    <state x="740" y="277" key="FileChooserDialogImpl" timestamp="1611841647201">
+    <state x="552" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1611844843505" />
+    <state x="184" y="85" key="DiffContextDialog" timestamp="1611844855365">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="184" y="85" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611844855365" />
+    <state x="740" y="277" key="FileChooserDialogImpl" timestamp="1611845645623">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="493" y="181" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1603983051047" />
-    <state x="740" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1611841647201" />
+    <state x="740" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1611845645623" />
     <state x="461" y="145" key="SettingsEditor" timestamp="1611549664587">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="145" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1611549664587" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1611624509708">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1611844859243">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="368" y="146" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1603986203953" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611624509708" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611844859243" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/phone$builder.coverage" NAME="builder Coverage Results" MODIFIED="1599188644414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/Python/Python36/Lib/site-packages/kivy/lang" />
