@@ -63,7 +63,7 @@
 			},
 			getList(){
 			uni.request({
-				url:'https://yhl.free.qydev.com/phone/china',
+				url:'http://192.168.0.106:8088/phone/china',
 				success:(res)=>{
 					this.phone_list=res.data.json_list
 					// this.country = res.data.country_list;

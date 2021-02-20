@@ -38,6 +38,7 @@ def analytic_coordinate(request):
 def china(request):
     json_list = []
     goods = phone_test.objects.all()
+    print(goods)
     for good in goods:
         json_dict = {}
         aa = good.country
@@ -52,6 +53,7 @@ def china(request):
             json_list.append(json_dict)
         else:
             pass
+    print(json_list)
     return JsonResponse({"json_list": json_list})
 
 
@@ -146,5 +148,6 @@ def query_gps_position(request):#查询地址
             address_dict["lat"]=address.latitude#纬度
             address_dict["lng"]=address.longitude#经度
             address_list.append(address_dict)
+        print(address_list)
         return JsonResponse({"address_list":address_list})#返回地址到前端
         #return JsonResponse({"data": "查询成功"})

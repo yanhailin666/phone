@@ -2922,27 +2922,7 @@ var render = function() {
                   staticClass: _vm._$g("4-" + $30, "sc"),
                   attrs: { _i: "4-" + $30 }
                 },
-                [
-                  _c(
-                    "v-uni-view",
-                    {
-                      staticClass: _vm._$g("5-" + $30, "sc"),
-                      attrs: { _i: "5-" + $30 }
-                    },
-                    [
-                      _c(
-                        "v-uni-view",
-                        {
-                          staticClass: _vm._$g("6-" + $30, "sc"),
-                          attrs: { _i: "6-" + $30 }
-                        },
-                        [_vm._v(_vm._$g("6-" + $30, "t0-0"))]
-                      )
-                    ],
-                    1
-                  )
-                ],
-                1
+                [_vm._v(_vm._$g("4-" + $30, "t0-0"))]
               )
             ],
             1
