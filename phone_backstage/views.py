@@ -38,7 +38,6 @@ def analytic_coordinate(request):
 def china(request):
     json_list = []
     goods = phone_test.objects.all()
-    print(goods)
     for good in goods:
         json_dict = {}
         aa = good.country
@@ -53,7 +52,6 @@ def china(request):
             json_list.append(json_dict)
         else:
             pass
-    print(json_list)
     return JsonResponse({"json_list": json_list})
 
 
@@ -99,10 +97,13 @@ def add_gps_position(request):#get
 def update_gps_position(request):
     if request.method == 'GET':
         data=request.GET.get('data',"")
-        print((data))
+        #print((data))
         time = request.GET.get('time')  # 时间戳
         lng= str(request.GET.get('lng'))#经度
         lat= str(request.GET.get('lat'))#纬度
+        crea_time=int(request.GET.get('creatime'))#保存时间戳
+        time_local = time.localtime(crea_time / 1000)#需要转换时间戳
+        creation_time= time.strftime("%Y-%m-%d %H:%M:%S", time_local)#输出时间格式
         key = "VLDBZ-YPTK6-R2GSK-MVXAM-746YJ-LCBBF"
         api_url = "https://apis.map.qq.com/ws/geocoder/v1/?location="
         #url = api_url + lng + "," + lat + "&" + "key=" + key + "&get_poi=1"
@@ -118,6 +119,7 @@ def update_gps_position(request):
             query_databates.latitude = lat
             query_databates.longitude = lng
             query_databates.detailed_address = address
+            query_databates.creation_time=creation_time
             query_databates.save()  # 执行更新数据库
         elif str(analytic_data["status"]) == "310":
             print("请求参数信息有误")
@@ -133,13 +135,13 @@ def update_gps_position(request):
 def query_gps_position(request):#查询地址
     if request.method == 'GET':
         data=request.GET.get('data',"")
-        print((data))
+        #print((data))
         brand = request.GET.get('brand')#手机品牌
         model = request.GET.get('model')#手机型号
         phone_models = str(brand) + ";" + str(model)
-        print(phone_models)
+        #print(phone_models)
         query_databates=gps_position.objects.filter(phone_models=phone_models)#按手机型号进行查询
-        print(query_databates)
+        #print(query_databates)
         address_list=[]
         for address in query_databates:#获取地址信息
             address_dict={}
@@ -147,7 +149,8 @@ def query_gps_position(request):#查询地址
             address_dict["address"]=address.detailed_address#地址信息
             address_dict["lat"]=address.latitude#纬度
             address_dict["lng"]=address.longitude#经度
+            address_dict["change_time"]=address.creation_time#保存时间
             address_list.append(address_dict)
-        print(address_list)
+        #print(address_list)
         return JsonResponse({"address_list":address_list})#返回地址到前端
         #return JsonResponse({"data": "查询成功"})

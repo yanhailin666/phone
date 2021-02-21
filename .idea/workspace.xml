@@ -38,9 +38,9 @@
       <change beforePath="$PROJECT_DIR$/log/Script/QWebFX_Script_2020-10-31.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/log/Script/QWebFX_Script_2020-11-09.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/log/Script/QWebFX_Script_2021-01-26.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/phone/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/phone/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone_backstage/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/phone_backstage/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/phone_backstage/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/phone_backstage/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phone_test/pages/china/china.vue" beforeDir="false" afterPath="$PROJECT_DIR$/phone_test/pages/china/china.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phone_test/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/phone_test/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/phone_test/pages/gps_positioning_query/gps_positioning_query.vue" beforeDir="false" afterPath="$PROJECT_DIR$/phone_test/pages/gps_positioning_query/gps_positioning_query.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/app-plus/app-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/app-plus/app-service.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/app-plus/app-view.js" beforeDir="false" afterPath="$PROJECT_DIR$/phone_test/unpackage/dist/dev/app-plus/app-view.js" afterDir="false" />
@@ -291,7 +291,8 @@
       <workItem from="1612704797753" duration="2369000" />
       <workItem from="1612853958237" duration="757000" />
       <workItem from="1613714529962" duration="144000" />
-      <workItem from="1613828560553" duration="3835000" />
+      <workItem from="1613828560553" duration="3879000" />
+      <workItem from="1613896495047" duration="4447000" />
     </task>
     <task id="LOCAL-00001">
       <created>1598423982610</created>
@@ -510,7 +511,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613714655773</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="修改查询位置接口，新增查询gps界面">
+      <created>1613834533072</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1613834533072</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -550,10 +558,10 @@
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="0" key="CommitChangelistDialog2" timestamp="1613714654886">
+    <state x="552" y="0" key="CommitChangelistDialog2" timestamp="1613834532434">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1613714654886" />
+    <state x="552" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1613834532434" />
     <state x="184" y="85" key="DiffContextDialog" timestamp="1611844855365">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -566,10 +574,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="145" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1611549664587" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1613714658944">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1613834536486">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1613714658944" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1613834536486" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/phone$builder.coverage" NAME="builder Coverage Results" MODIFIED="1599188644414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/Python/Python36/Lib/site-packages/kivy/lang" />

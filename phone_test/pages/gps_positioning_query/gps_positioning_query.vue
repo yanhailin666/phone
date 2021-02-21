@@ -3,13 +3,8 @@
 		<text>1111</text>
 		<view>
 			<view v-for="(item,index) in address_list":key="index">
-				<view class="text">{{item}}</view>
+				<view class="text">{{item.address}}</view>
 			</view>
-<!-- 			<view v-for="address in address_list" :key="address.id">
-				<label class="checkbox">
-					<checkbox :value="address.address" /> {{ address.address}}
-				</label>
-			</view> -->
 		</view>
 	</view>
 </template>
@@ -19,62 +14,30 @@
 	export default {
 		data() {
 			return{
-				address_list:[]
+				address_list:[],
 			}
 		},
-		// created() {
-		// 	_self=get_mobile_information
-		// },
 		onLoad(){
+			//执行顺序
 			this.get_mobile_information();
+			this.brand=getApp().globalData.brand
+			this.model=getApp().globalData.model
 			this.gps_positioning_query();
 		},
-		// data() {
-		// 	return{
-		// 		address_list:[
-		// 			{
-		// 				"id": 1,
-		// 				"address": "2434535",
-		// 				"lat": "",
-		// 				"lng": ""
-		// 			}, {
-		// 				"id": 2,
-		// 				"address": "",
-		// 				"lat": "",
-		// 				"lng": ""
-		// 			}, {
-		// 				"id": 3,
-		// 				"address": "",
-		// 				"lat": "",
-		// 				"lng": ""
-		// 			}, {
-		// 				"id": 4,
-		// 				"address": "",
-		// 				"lat": "",
-		// 				"lng": ""
-		// 			}, {
-		// 				"id": 5,
-		// 				"address": "湖南省永州市宁远县061县道",
-		// 				"lat": "25.452189",
-		// 				"lng": "111.901027"
-		// 			}
-					
-		// 		]
-		// 	}
-		// },
-		// onLoad:function(){
-		// 	this.gps_positioning_query()},
 		methods:{
 			get_mobile_information(){
 				uni.getSystemInfo({
 					success:function(res){
-						this.brand=res.brand
-					//var brand=res.brand
-					var model=res.model
-					console.log(brand,model);
+					//this.brand=res.brand
+					// let brand=res.brand
+					// var model=res.model
+					getApp().globalData.brand=res.brand//修改全局变量数据，在onLoad中注意顺序
+					getApp().globalData.model=res.model
+					//console.log(brand,model);
 					}
 				});
 			},
+			
 			gps_positioning_query(){
 				uni.request({
 					url:'http://192.168.0.106:8088/phone/query_gps_position',
@@ -82,7 +45,7 @@
 					header:{ 'content-type': 'application/x-www-form-urlencoded', },
 					data:{
 						"brand":this.brand,
-						"model":"BKL-AL20",
+						"model":this.model,
 					},
 					success:(res)=>{
 						this.address_list=res.data.address_list

@@ -11,6 +11,18 @@ import uniNavBar from "@/components/uni-nav-bar/uni-nav-bar.vue"
 			console.log('App Hide')
 		},
 		components: {uniNavBar},
+		globalData:{
+			 brand:'',
+			 model:'',
+			// uni.getSystemInfo({
+			// 	success:function(res){
+			// 	//this.brand=res.brand
+			// 	let brand=res.brand
+			// 	let model=res.model
+			// 	//console.log(brand,model);
+			// 	}
+			// });
+		},
 		
 	}
 </script>
