@@ -67,7 +67,7 @@
             "path" : "pages/gps_positioning_query/gps_positioning_query",
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "",
+                "navigationBarTitleText": "地理位置详情页",
                 "enablePullDownRefresh": false
             }
             

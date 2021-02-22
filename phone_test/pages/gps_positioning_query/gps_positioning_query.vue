@@ -1,9 +1,17 @@
 <template>
 	<view>
-		<text>1111</text>
 		<view>
 			<view v-for="(item,index) in address_list":key="index">
-				<view class="text">{{item.address}}</view>
+				<view class="nr">
+					<p>创建时间:{{item.change_time}}</p>
+					<p>参考地址:{{item.address}}</p>
+				</view>
+			</view>
+			<view class="jz">
+				<p>------------这是一个分割线------------</p>
+			</view>
+			<view class="text">
+				<p>就会开始的发表发吧 电脑； ；就地方浮动空间放大镜看机会 反对 大家都方便地方说的话反馈上课还是客户端就发上来吧四点九八被市场空间不是连不上了对吧上的分布粒子数量很少的了计划</p>
 			</view>
 		</view>
 	</view>
@@ -55,85 +63,26 @@
 					},
 				});
 			}
-			// gps_positioning_query(){
-			// 	uni.request({
-			// 		url:'http://192.168.0.106:8088/phone/query_gps_position',
-			// 		method:'GET',
-			// 		header:{ 'content-type': 'application/x-www-form-urlencoded', },
-			// 		uni.getSystemInfo({
-			// 			success:function(res){
-			// 			let brand=res.brand
-			// 			let model=res.model
-			// 			console.log(brand,model);
-			// 			}
-			// 		});
-			// 		data:{
-			// 			"brand":brand,
-			// 			"model":model,
-			// 		},
-			// 		success: (res) => {
-			// 			console.log('request success', res)
-			// 			this.address_list1=res.data.address_list
-			// 				// this.address_list1=JSON.parse(JSON.stringify(res.data.address_list))
-			// 				//var address_list = JSON.parse(JSON.stringify(res.data.address_list))
-			// 				// this.address = address
-			// 				console.log(this.address_list1)
-			// 			// uni.showToast({
-			// 			// 	title: '请求成功',a
-			// 			// 	icon: 'success',
-			// 			// 	mask: true,
-			// 				//duration: duration
-			// 			// });
-			// 			//this.res = '请求结果 : ' + JSON.stringify(res);
-			// 		},
-			// 		fail: (err) => {
-			// 			console.log('request fail', err);
-			// 			uni.showModal({
-			// 				content: err.errMsg,
-			// 				showCancel: false
-			// 			});
-			// 		},
-			// 	})
-			// }
 		}	
 		
 	}
 </script>
 
 <style>
-
+.nr{
+	border-radius: 25px;
+	background: #8AC007;
+	padding: 10px; 
+	width: 95%;
+	height: 45px;
+	margin-top: 30rpx;
+},
+.text{
+	margin-top: 60rpx;
+	text-indent:50px;
+},
+.jz{
+	margin-top: 30rpx;
+	text-align: center;
+}
 </style>
-<!-- methods: {
-			gps_positioning_query(){
-				let data = this.addressData;
-					//console.log(JSON.stringify(data))
-				if (!bottomImageMenu) {//获取手机信息
-						bottomImageMenu = new BottomImageMenu(this.menus, (menus,provider, scene) => {
-						let time=new Date().getTime()
-						uni.getSystemInfo({
-							success: function (res) {
-								let brand=res.brand
-								let model=res.model
-								uni.request({
-									url:'http://192.168.43.151:8088/phone/add_gps_position',
-									method:'GET',
-									header:{ 'content-type': 'application/x-www-form-urlencoded', },
-									data:{
-										"brand":brand,
-										"model":model,
-									},
-									success(res) {
-										this.address_list=res.data.address_list
-										let address = JSON.parse(JSON.stringify(res))
-										this.address = address
-										console.log(this.address_list)
-									},
-								});
-								
-							}
-						});
-					}
-				}
-			}
-		
-		} -->
